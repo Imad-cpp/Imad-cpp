@@ -102,8 +102,12 @@ A gaming-hall founder project in Morocco. I keep product/founder evidence separa
 
 ## Education & cybersecurity
 
+### <img src="./assets/icons/verified-learning.svg" width="20" alt=""> Academic foundation
+
 **Informatique et Intelligence Artificielle**  
 Faculté Pluridisciplinaire de Nador · Université Mohammed Premier · **Completed 2026**
+
+### <img src="./assets/icons/cybersecurity.svg" width="20" alt=""> Cybersecurity track
 
 **Applied Computer Science Program — Cybersecurity**  
 UM6P / Higher Education Without Borders — ACSP · **2025–2026**
