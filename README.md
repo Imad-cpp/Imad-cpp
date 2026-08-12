@@ -90,10 +90,13 @@ A gaming-hall founder project in Morocco. I keep product/founder evidence separa
 
 ## How I engineer
 
-**Product → system** — turn broad ideas into scope, flows, architecture and implementation boundaries.  
-**Backend → integration** — Laravel, APIs, webhooks, queues, stateful workflows and administration.  
-**Security → reliability** — permissions, privacy, secrets, Linux operations, deployment and rollback thinking.  
-**GitHub → engineering record** — coherent commits, CI, ADRs, source-of-truth documentation and traceable project history.
+<img src="./assets/icons/product-engineering.svg" width="20" alt=""> **01 · Product → system** — turn broad ideas into scope, flows, architecture and implementation boundaries.
+
+<img src="./assets/icons/backend-systems.svg" width="20" alt=""> **02 · Backend → integration** — Laravel, APIs, webhooks, queues, stateful workflows and administration.
+
+<img src="./assets/icons/cybersecurity.svg" width="20" alt=""> **03 · Security → reliability** — permissions, privacy, secrets, deployment controls and rollback thinking.
+
+<img src="./assets/icons/github-practice.svg" width="20" alt=""> **04 · GitHub → engineering record** — coherent commits, CI, ADRs, source-of-truth documentation and traceable project history.
 
 [See detailed engineering capabilities →](./profile/work.md) · [See my GitHub workflow →](./profile/github-engineering.md)
 
