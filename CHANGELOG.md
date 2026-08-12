@@ -33,6 +33,7 @@ This section records the refinement work completed after the `v1.0.0` baseline. 
 - Reorganized N9raw Student Dev Kit around learning outcomes, Git/GitHub workflow, bilingual parity, repository discipline, privacy and rights.
 - Reorganized Nexar as founder/product evidence while making the software-evidence boundary explicit.
 - Extended the Engineering Signal system from large section/project visuals into small recognition and navigation cues across deeper pages.
+- Aligned the public GitHub account metadata with the approved profile contract: display name, founder/engineering bio, company, location and website.
 
 ### Fixed
 

@@ -36,13 +36,17 @@ The bio is intentionally concise. It states the active founder role and the engi
 
 `https://es-sebaiy.com`
 
-## Current GitHub state reviewed on 2026-08-12
+## Current GitHub state verified on 2026-08-12
 
-- Company is already set to `N9raw`.
-- Website is already set to `https://es-sebaiy.com/`.
-- Location is currently `morocco`; preferred presentation is `Morocco`.
-- Display name is currently `Es-sebaiy Imadeddine`; preferred presentation is `Imadeddine Es-sebaiy`.
-- Bio is currently empty and should use the approved bio above.
+The public GitHub account metadata now matches the approved contract:
+
+- Display name: `Imadeddine Es-sebaiy`.
+- Bio: `Founder @ N9raw · Product engineering · Backend systems · Cybersecurity · Infrastructure`.
+- Company: `N9raw`.
+- Location: `Morocco`.
+- Website: `https://es-sebaiy.com/`.
+
+A LinkedIn social-profile link is also configured on the GitHub profile. Account-level social links are managed through GitHub rather than this repository.
 
 ## Privacy rule
 
