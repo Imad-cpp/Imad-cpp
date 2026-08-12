@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/certifications-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../assets/sections/certifications-light.svg">
+    <img src="../assets/sections/certifications-light.svg" width="100%" alt="Certifications — Verified Learning">
+  </picture>
+</p>
+
 # Certifications
 
 [← Back to profile](../README.md) · [About](about.md) · [Work](work.md) · [Education](education.md) · [GitHub Engineering](github-engineering.md)
