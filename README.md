@@ -23,15 +23,15 @@
   <a href="./profile/github-engineering.md">GitHub Engineering</a>
 </p>
 
-## What I build
+## I build systems around real problems
 
 I am a Moroccan founder and software builder working across **product engineering, backend systems, cybersecurity and infrastructure**.
 
-I like taking a real problem from idea to system: understanding the user, structuring the product, choosing clear architecture, building the software, connecting services, operating it reliably and documenting the decisions that matter.
+My strongest work sits between product and engineering: defining the problem, structuring the system, building the software, connecting services, operating it reliably and documenting the decisions that make future changes safer.
 
-[Read the full profile →](./profile/about.md)
+[About me →](./profile/about.md) · [Detailed work →](./profile/work.md)
 
-## Currently building — N9raw
+## Current focus — N9raw
 
 <p align="center">
   <picture>
@@ -41,126 +41,67 @@ I like taking a real problem from idea to system: understanding the user, struct
   </picture>
 </p>
 
-### N9raw — Moroccan Student Operating System
+**N9raw** is the main product I am building: a trusted Moroccan Student Operating System designed to help students study, orient themselves, discover opportunities and move toward further education and first employment.
 
-N9raw is the main product I am building to help Moroccan students **study, make informed education choices, find trustworthy resources, discover opportunities and move toward their first career**.
+**Role:** Founder · Product · Engineering · Infrastructure  
+**Architecture:** `Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Cloudflare`
 
-**Role:** Founder · Product · Engineering · Infrastructure
-
-**Approved architecture:** `Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Cloudflare`
-
-[Explore N9raw](https://n9raw.com) · [Read the case study →](./profile/case-studies/n9raw.md)
+[Explore N9raw](https://n9raw.com) · [Read the N9raw case study →](./profile/case-studies/n9raw.md)
 
 ## Selected systems
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-nour-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-nour-light.svg">
-    <img src="./assets/projects/case-nour-light.svg" width="100%" alt="Nour FPN — Backend, Integrations, Automation and Operations">
-  </picture>
-</p>
-
 ### Nour FPN
 
-A WhatsApp-first student assistant for FPN Nador, built with Laravel, queued message processing, academic-service integrations and controlled administration.
+**WhatsApp-first student assistant · Backend · Integrations · Operations**
 
-**Focus:** Backend · WhatsApp Cloud API · Automation · Integrations · Linux Operations
+Laravel, queued message processing, WhatsApp Cloud API integration, academic-service flows, scoped administration and Linux production operations.
 
-[Read the Nour FPN case study →](./profile/case-studies/nour-fpn.md)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-devkit-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-devkit-light.svg">
-    <img src="./assets/projects/case-devkit-light.svg" width="100%" alt="N9raw Student Dev Kit — Developer Education, Git, GitHub and Documentation">
-  </picture>
-</p>
+[Case study →](./profile/case-studies/nour-fpn.md)
 
 ### N9raw Student Dev Kit
 
-A practical bilingual learning project for students learning Git, GitHub, project documentation and software-development workflow by building.
+**Developer education · Git · GitHub · Bilingual documentation**
 
-**Focus:** Developer Education · Git · GitHub · Documentation · Privacy-safe Learning
+Practical French/Arabic learning material for students building Git/GitHub workflow, project documentation and privacy-safe engineering habits.
 
-[Read the Student Dev Kit case study →](./profile/case-studies/n9raw-student-dev-kit.md)
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-nexar-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-nexar-light.svg">
-    <img src="./assets/projects/case-nexar-light.svg" width="100%" alt="Nexar — Founder, Product Experience and Operations">
-  </picture>
-</p>
+[Case study →](./profile/case-studies/n9raw-student-dev-kit.md)
 
 ### Nexar
 
-A gaming-hall founder project focused on designing a modern gaming experience in Morocco. I keep its profile evidence deliberately separate from software claims that are not yet implemented.
+**Founder · Product experience · Operations**
 
-**Role:** Founder
+A gaming-hall founder project in Morocco. I keep product/founder evidence separate from software claims until technical implementation is actually ready to support them.
 
-[Read the Nexar case study →](./profile/case-studies/nexar.md)
+[Case study →](./profile/case-studies/nexar.md)
 
-## Engineering focus
+## How I engineer
 
-**01 · Product engineering**  
-Product structure, web platforms, backend systems, APIs and maintainable architecture.
+**Product → system** — turn broad ideas into scope, flows, architecture and implementation boundaries.  
+**Backend → integration** — Laravel, APIs, webhooks, queues, stateful workflows and administration.  
+**Security → reliability** — permissions, privacy, secrets, Linux operations, deployment and rollback thinking.  
+**GitHub → engineering record** — coherent commits, CI, ADRs, source-of-truth documentation and traceable project history.
 
-**02 · Security-minded systems**  
-Access control, privacy, defensive engineering, student-data boundaries and secure infrastructure thinking.
+[See detailed engineering capabilities →](./profile/work.md) · [See my GitHub workflow →](./profile/github-engineering.md)
 
-**03 · Infrastructure & reliability**  
-Linux, Nginx, queues, deployment, CI/CD, cloud/edge controls and production diagnostics.
+## Education & cybersecurity
 
-**04 · Engineering governance**  
-Source-of-truth documentation, decision records, scoped changes, review gates and useful repository history.
+**Informatique et Intelligence Artificielle**  
+Faculté Pluridisciplinaire de Nador · Université Mohammed Premier · **Completed 2026**
 
-[See detailed work and capabilities →](./profile/work.md)
+**Applied Computer Science Program — Cybersecurity**  
+UM6P / Higher Education Without Borders — ACSP · **2025–2026**
 
-## GitHub engineering
-
-I use GitHub as more than code storage: for scoped work, coherent commits, reviewable decisions, CI, documentation, changelogs and project history.
-
-I care more about whether a repository explains **what exists, why it exists and how to change it safely** than about contribution-count vanity metrics.
-
-[See how I work with Git and GitHub →](./profile/github-engineering.md)
-
-## Education & learning
-
-### Informatique et Intelligence Artificielle
-**Faculté Pluridisciplinaire de Nador · Université Mohammed Premier**  
-Degree completed in **2026**.
-
-### Applied Computer Science Program — Cybersecurity
-**UM6P / Higher Education Without Borders — ACSP**  
-Cybersecurity track · **2025–2026**.
-
-### Verified learning milestones
-
-`Computer Networks — ACSP` · `Linux Fundamentals — ACSP` · `Programming I — ACSP` · `ALX Professional Foundations`
+**Learning milestones:** `Computer Networks` · `Linux Fundamentals` · `Programming I` · `ALX Professional Foundations`
 
 [Education →](./profile/education.md) · [Certifications →](./profile/certifications.md)
 
-## Technology
+## Technology I use
 
-**Languages**  
-`TypeScript` · `PHP` · `Python` · `C++` · `Java`
-
-**Web & Backend**  
-`Next.js` · `React` · `Laravel` · `REST APIs`
-
-**Data & Search**  
-`PostgreSQL` · `Redis` · `Meilisearch`
-
-**Infrastructure & Tooling**  
-`Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
+`TypeScript` · `PHP` · `Python` · `C++` · `Java` · `Next.js` · `React` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
 
 ## Connect
 
-- [Personal website — es-sebaiy.com](https://es-sebaiy.com)
-- [LinkedIn — Imadeddine Es-sebaiy](https://www.linkedin.com/in/imadeddine-es-sebaiy)
-- [GitHub repositories — @Imad-cpp](https://github.com/Imad-cpp?tab=repositories)
-- [N9raw — n9raw.com](https://n9raw.com)
+[Personal website](https://es-sebaiy.com) · [LinkedIn](https://www.linkedin.com/in/imadeddine-es-sebaiy) · [Repositories](https://github.com/Imad-cpp?tab=repositories) · [N9raw](https://n9raw.com)
 
 ---
 
