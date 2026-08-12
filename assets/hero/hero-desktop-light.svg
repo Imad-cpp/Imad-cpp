@@ -1,0 +1,22 @@
+<svg width="820" height="250" viewBox="0 0 820 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Imadeddine Es-sebaiy — Engineering Signal</title>
+  <desc id="desc">Light responsive portfolio banner for Imadeddine Es-sebaiy, founder and product builder focused on software engineering and cybersecurity.</desc>
+  <rect width="820" height="250" rx="24" fill="#F7F9F8"/>
+  <rect x="1" y="1" width="818" height="248" rx="23" stroke="#D9E2DE"/>
+  <path d="M38 38H176" stroke="#2F8F68" stroke-width="3" stroke-linecap="round"/>
+  <text x="38" y="65" fill="#2F8F68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.7">IMAD-CPP / ENGINEERING SIGNAL</text>
+  <text x="38" y="129" fill="#111816" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">Imadeddine Es-sebaiy</text>
+  <text x="38" y="168" fill="#33443D" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="650">Founder · Product Builder · Software Engineering · Cybersecurity</text>
+  <text x="38" y="206" fill="#66756E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Build useful systems. Keep them understandable. Make them last.</text>
+  <g opacity="0.95">
+    <path d="M646 54L692 80L736 54L782 80" stroke="#B8CBC2" stroke-width="2"/>
+    <path d="M646 126L692 100L736 126L782 100" stroke="#B8CBC2" stroke-width="2"/>
+    <path d="M692 80V100M736 54V126M782 80V100" stroke="#CFDBD5"/>
+    <circle cx="646" cy="54" r="5" fill="#2F8F68"/>
+    <circle cx="692" cy="100" r="5" fill="#C9A84F"/>
+    <circle cx="736" cy="54" r="5" fill="#2F8F68"/>
+    <circle cx="782" cy="100" r="5" fill="#2F8F68"/>
+    <path d="M650 178H777" stroke="#D9E2DE"/>
+    <text x="650" y="202" fill="#50635A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">BUILD / SECURE / SHIP</text>
+  </g>
+</svg>
