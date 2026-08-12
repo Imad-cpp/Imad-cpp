@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/work-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../assets/sections/work-light.svg">
+    <img src="../assets/sections/work-light.svg" width="100%" alt="Work — Build & Ship">
+  </picture>
+</p>
+
 # Work
 
 [← Back to profile](../README.md) · [About](about.md) · [Education](education.md) · [Certifications](certifications.md) · [GitHub Engineering](github-engineering.md)
