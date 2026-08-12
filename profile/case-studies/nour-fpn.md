@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/projects/case-nour-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../../assets/projects/case-nour-light.svg">
+    <img src="../../assets/projects/case-nour-light.svg" width="100%" alt="Nour FPN case study — Backend, Integrations, Automation and Operations">
+  </picture>
+</p>
+
 # Nour FPN — Case Study
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Previous: N9raw](n9raw.md) · [Next: Student Dev Kit](n9raw-student-dev-kit.md)
