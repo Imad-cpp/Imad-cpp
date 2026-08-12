@@ -118,7 +118,17 @@ UM6P / Higher Education Without Borders — ACSP · **2025–2026**
 
 ## Technology I use
 
-`TypeScript` · `PHP` · `Python` · `C++` · `Java` · `Next.js` · `React` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
+<img src="./assets/icons/product-engineering.svg" width="20" alt=""> **Languages**  
+`TypeScript` · `PHP` · `Python` · `C++` · `Java`
+
+<img src="./assets/icons/backend-systems.svg" width="20" alt=""> **Web & Backend**  
+`Next.js` · `React` · `Laravel`
+
+<img src="./assets/icons/backend-systems.svg" width="20" alt=""> **Data & Search**  
+`PostgreSQL` · `Redis` · `Meilisearch`
+
+<img src="./assets/icons/infrastructure.svg" width="20" alt=""> **Infrastructure & Tooling**  
+`Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
 
 ## Connect
 
