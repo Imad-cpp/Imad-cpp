@@ -1,18 +1,18 @@
-# Imad-cpp Profile v2 — Visual System
+# Imad-cpp Profile v1 — Visual System
 
-Status: Proposed foundation
+Status: Approved
 Owner: Imadeddine Es-sebaiy
-Date: 2026-08-12
+Approved: 2026-08-12
 
 ## Direction
 
 The approved direction is **Premium Minimal Engineer**.
 
+Official visual name:
+
+# IMAD-CPP / Engineering Signal System
+
 The profile should feel engineered, calm and intentional: more like a technical portfolio system than a social-media banner collection.
-
-Working visual name: **IMAD-CPP / Engineering Signal System**.
-
-The visual language grows from the current profile's strongest idea — connected engineering nodes and disciplined green/gold accents — while reducing tiny decorative text and repeated project banners.
 
 ## Personality
 
@@ -31,13 +31,11 @@ The recurring motif is a restrained network/path system:
 - nodes represent decisions, systems and milestones;
 - connecting lines represent architecture and delivery paths;
 - one warm gold node may mark a meaningful milestone;
-- labels use terse engineering language such as `BUILD`, `SECURE`, `SHIP`, `LEARN` only when they add meaning.
+- terse engineering labels such as `BUILD`, `SECURE`, `SHIP` or `LEARN` are used only when they add meaning.
 
 The motif must never become code rain, a circuit-board wallpaper, a tiled logo pattern or a decorative grid covering every asset.
 
 ## Color system
-
-The existing profile already establishes a useful base. Profile v2 keeps it coherent instead of introducing another unrelated palette.
 
 ### Dark surface
 
@@ -59,7 +57,7 @@ The existing profile already establishes a useful base. Profile v2 keeps it cohe
 - Signal green: `#2F8F68`
 - Milestone gold: `#C9A84F`
 
-Green communicates engineering/system continuity. Gold is intentionally rare and should mark one milestone or high-value detail, not ordinary decoration.
+Green communicates engineering/system continuity. Gold is intentionally rare and marks a meaningful milestone rather than ordinary decoration.
 
 ## Typography
 
@@ -67,20 +65,11 @@ Rendered SVG text uses a safe fallthrough stack:
 
 `Inter, Segoe UI, Arial, sans-serif`
 
-Native profile content uses GitHub's own typography. The visual system must not depend on shipping custom font files.
+Native profile content uses GitHub's own typography. No custom font files are required or shipped.
 
-Text hierarchy inside SVG assets:
+## Responsive hero family
 
-- identity: bold and dominant;
-- role line: one concise line;
-- micro-labels: optional and never essential;
-- paragraphs: prohibited inside decorative assets.
-
-## Hero system
-
-The hero should become a real responsive asset family rather than one desktop banner scaled everywhere.
-
-Target family:
+Profile V1 uses four explicit hero variants:
 
 ```text
 assets/hero/
@@ -90,79 +79,63 @@ assets/hero/
 └── hero-mobile-dark.svg
 ```
 
-Desktop and mobile versions share the same message and motif. The mobile version removes secondary microcopy instead of shrinking it into unreadable text.
+The mobile version removes secondary complexity instead of shrinking desktop text into unreadable microcopy.
 
-The hero should contain only:
+The hero contains only:
 
+- `IMAD-CPP / ENGINEERING SIGNAL`;
 - Imadeddine Es-sebaiy;
-- one concise engineering positioning line;
-- one recognisable Engineering Signal motif;
-- optional `IMAD-CPP` system label.
+- a concise positioning line;
+- the Engineering Signal motif; and
+- a short build/security message where space allows.
 
-Detailed descriptions stay in Markdown directly below the hero.
-
-## Deep-page header system
-
-Every major profile page may have a compact static header using the same visual grammar.
-
-Examples:
-
-- `ABOUT / SYSTEMS & PRODUCT`
-- `WORK / BUILD & SHIP`
-- `EDUCATION / LEARN & APPLY`
-- `CERTIFICATIONS / VERIFIED LEARNING`
-- `GITHUB / ENGINEERING PRACTICE`
-
-Headers identify the page; they do not repeat page content.
+Detailed biography stays in Markdown.
 
 ## Project visuals
 
-Project visuals are not generic cards.
+Project visuals are recognition surfaces, not generic UI cards.
 
-Each case study may use one wide cover containing:
+They may contain:
 
 - project name;
 - one-line purpose;
-- role or focus;
-- a project-specific diagram or structured motif where useful.
+- role/focus; and
+- a restrained project-specific signal motif.
 
-The design remains visually related to the personal system but does not overwrite the project's own brand identity.
+They do not replace the corresponding case study.
 
-N9raw visuals must respect N9raw's approved Page Turn logo and brand rules when its logo is used. Personal profile motifs must never alter or recreate the N9raw symbol.
+When N9raw brand assets are used, N9raw's own approved Page Turn logo and brand rules remain authoritative. The personal Engineering Signal system must not alter or recreate the N9raw symbol.
 
 ## Native Markdown first
 
-Important content is never trapped inside images.
-
-Use native Markdown for:
+Important content stays native:
 
 - biography;
-- roles;
 - project explanations;
 - architecture reasoning;
 - education details;
 - certification details;
 - links and evidence.
 
-Use SVG only when visual structure improves recognition or comprehension.
+SVG is for identity and structure, not paragraphs.
 
 ## Responsive rules
 
-- Main content is single-column by default.
-- No primary information depends on a desktop-only side-by-side layout.
+- Main content is single-column.
+- No primary information depends on desktop-only side-by-side layout.
 - Major SVGs render at `width="100%"`.
-- Mobile-specific hero variants are preferred over tiny scaled desktop text.
-- Project covers must remain understandable around a 320–390 px viewport.
-- Text inside mobile SVGs is kept intentionally sparse.
-- Native link navigation is allowed to wrap naturally.
+- Mobile-specific hero variants are preferred over scaled desktop microcopy.
+- Essential visual text remains readable around 320–390 px widths.
+- Native navigation may wrap naturally.
+- No information depends on hover.
 
 ## Light and dark mode
 
-Theme variants are paired. A dark asset is never created without considering its light counterpart.
+Theme variants carry the same hierarchy and meaning.
 
 Use `<picture>` for theme-aware rendering where GitHub supports the chosen markup.
 
-The content hierarchy and meaning must remain identical across themes.
+A dark asset is never treated as complete without its light counterpart when the asset is intended to be theme-aware.
 
 ## Accessibility
 
@@ -171,12 +144,10 @@ Major SVG assets must contain:
 - `role="img"`;
 - a meaningful `<title>`;
 - a concise `<desc>`;
-- sufficient contrast;
+- sufficient text/background contrast; and
 - no essential information encoded by color alone.
 
-Decorative SVG elements should not create repetitive screen-reader noise.
-
-Link labels in Markdown remain descriptive; visual CTA text is not the only path to a destination.
+Visual links are never the only path to important content.
 
 ## Static-only rule
 
@@ -192,24 +163,24 @@ Prohibited:
 - remote badge walls;
 - decorative motion.
 
-The profile should still look current years from now without depending on third-party rendering services.
+The visual identity should still work years later without depending on third-party rendering services.
 
 ## Photography
 
-Photography is allowed, but not required.
+Photography is optional.
 
-If a portrait is introduced later, it should be used once as a deliberate identity element, not repeated through the page. It must not compete with the engineering content or become the dominant visual language.
+If a portrait is introduced, it should appear once as a deliberate identity element and should not dominate the engineering content or become a repeated decorative device.
 
 ## Visual acceptance gate
 
 A profile visual is ready only when:
 
-- it belongs to the Engineering Signal system;
-- it works in both required themes;
-- it is readable on mobile;
+- it belongs to Engineering Signal;
+- it works in every required theme/viewport variant;
+- it remains readable on mobile;
 - it does not contain important long-form copy;
 - it has accessible metadata;
 - it contains no animation;
 - it does not imitate generic GitHub profile templates;
-- it does not introduce an unrelated palette or motif;
+- it does not introduce an unrelated palette or motif; and
 - it supports the content instead of competing with it.
