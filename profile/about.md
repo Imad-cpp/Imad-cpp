@@ -20,23 +20,23 @@ I am the founder of **N9raw**, an education technology initiative for Moroccan s
 
 ## What I care about
 
-### Useful products
+### <img src="../assets/icons/product-engineering.svg" width="20" alt=""> Useful products
 
 I prefer software that removes a concrete problem over technology added only because it is fashionable. That means starting from the user, the workflow and the constraints before choosing tools.
 
-### Understandable systems
+### <img src="../assets/icons/backend-systems.svg" width="20" alt=""> Understandable systems
 
 Architecture should make future work easier. I value clear module boundaries, explicit decisions, useful documentation, predictable data flows and small changes that can be reviewed safely.
 
-### Security and privacy
+### <img src="../assets/icons/cybersecurity.svg" width="20" alt=""> Security and privacy
 
 Security is part of product engineering, not a final checklist. I pay particular attention to access control, secrets, data minimisation, safe infrastructure, auditability and responsible handling of student data.
 
-### Reliable delivery
+### <img src="../assets/icons/infrastructure.svg" width="20" alt=""> Reliable delivery
 
 I enjoy the operational side of engineering as much as implementation: Linux, Nginx, deployment, queues, CI, rollback planning, observability and keeping production changes controlled.
 
-### Learning by building
+### <img src="../assets/icons/verified-learning.svg" width="20" alt=""> Learning by building
 
 My academic path combines computer science and artificial intelligence with an Applied Computer Science Program focused on cybersecurity. I use projects as a way to turn theory into practical engineering decisions.
 
@@ -50,13 +50,15 @@ At the same time, I continue developing my foundations in cybersecurity, softwar
 
 I do not separate product, software and operations when a project requires all three. My strongest work tends to combine:
 
-- product and system design;
-- backend and API development;
-- automation and external integrations;
-- infrastructure and deployment;
-- security-minded architecture;
-- Git/GitHub workflow and engineering documentation; and
-- technical learning translated into practical systems.
+<img src="../assets/icons/product-engineering.svg" width="20" alt=""> **Product & systems** — product and system design; backend and API development.
+
+<img src="../assets/icons/backend-systems.svg" width="20" alt=""> **Integration & automation** — automation and external integrations.
+
+<img src="../assets/icons/infrastructure.svg" width="20" alt=""> **Operations & security** — infrastructure and deployment; security-minded architecture.
+
+<img src="../assets/icons/github-practice.svg" width="20" alt=""> **Engineering practice** — Git/GitHub workflow and engineering documentation.
+
+<img src="../assets/icons/verified-learning.svg" width="20" alt=""> **Applied learning** — technical learning translated into practical systems.
 
 ## Based in Morocco
 
