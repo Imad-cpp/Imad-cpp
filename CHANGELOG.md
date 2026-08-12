@@ -15,15 +15,20 @@ All meaningful public-profile changes are recorded here.
 - Verified content/source register for LinkedIn, education, certifications and GitHub evidence.
 - Project-grade profile architecture and visual-system documentation.
 - Automated Profile Quality checks for internal links, SVG validity/accessibility, static-only visuals and basic secret hygiene.
+- Public account-metadata contract for display name, bio, company, location and website.
 
 ### Changed
 
 - Rebuilt the root profile README as a concise homepage with progressive links into deeper pages.
+- Sharpened the first-read experience so the root profile moves directly from identity to current focus, selected systems, engineering proof, education and contact.
+- Kept N9raw as the only featured project visual on the root profile while moving the remaining project covers to their deeper case studies.
+- Reduced duplicated engineering and technology copy on the root profile; detailed evidence now lives in Work and GitHub Engineering.
 - Replaced the stale generic `Licence SMI` profile label with the verified `Informatique et Intelligence Artificielle` degree wording.
 - Separated personal academic history from official institution/program descriptions.
 - Reframed technology and GitHub claims around evidence and real project work rather than badge/stat walls.
 - Kept private repositories as internal verification sources without presenting them as publicly inspectable evidence.
 - Extended the Engineering Signal language from the root hero into the complete Profile v1 page and project system.
+- Removed legacy hero/project visuals after the Engineering Signal replacements became canonical.
 
 ### Visual rules
 
