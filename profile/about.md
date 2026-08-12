@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/about-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../assets/sections/about-light.svg">
+    <img src="../assets/sections/about-light.svg" width="100%" alt="About — Systems & Product">
+  </picture>
+</p>
+
 # About
 
 [← Back to profile](../README.md) · [Work](work.md) · [Education](education.md) · [Certifications](certifications.md) · [GitHub Engineering](github-engineering.md)
