@@ -10,13 +10,27 @@
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Previous: Nour FPN](nour-fpn.md) · [Next: Nexar](nexar.md)
 
+## Case-study map
+
+<img src="../../assets/icons/product-engineering.svg" width="20" alt=""> **Problem** — students often learn isolated Git commands without understanding the workflow around them.
+
+<img src="../../assets/icons/verified-learning.svg" width="20" alt=""> **Learning design** — each guide targets a practical, verifiable outcome rather than content volume.
+
+<img src="../../assets/icons/github-practice.svg" width="20" alt=""> **Git/GitHub workflow** — repositories, branches, pull requests, recovery and documentation are taught as one engineering practice.
+
+<img src="../../assets/icons/product-engineering.svg" width="20" alt=""> **Bilingual approach** — French and Arabic share equivalent learning goals with RTL and terminology considered explicitly.
+
+<img src="../../assets/icons/cybersecurity.svg" width="20" alt=""> **Privacy & rights** — examples must avoid real identifiers, secrets, private code and unreviewed protected material.
+
+<img src="../../assets/icons/github-practice.svg" width="20" alt=""> **Evidence** — the repository itself is designed to model the habits the material teaches.
+
 ## Context
 
 The **N9raw Student Dev Kit** is a practical learning project for Moroccan students who want to learn Git, GitHub and software-development workflow by actually building and documenting things.
 
 **Role:** Founder · Curriculum Direction · Developer Education · Repository Design
 
-## Problem
+## <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> Problem
 
 Many students encounter Git and GitHub through isolated commands without understanding the workflow around them.
 
@@ -29,7 +43,7 @@ They may know how to run `git add` or `git commit`, but still struggle with ques
 - What information should never be committed?
 - How do I present a project credibly on GitHub?
 
-## Product approach
+## <img src="../../assets/icons/verified-learning.svg" width="20" alt=""> Learning design
 
 The Dev Kit is built around **practical outcomes**, not content volume.
 
@@ -41,7 +55,13 @@ A guide should lead to something the student can verify, for example:
 - a recovered Git mistake without losing work; or
 - a clear README for a university project.
 
-## Bilingual learning
+## <img src="../../assets/icons/github-practice.svg" width="20" alt=""> Git and GitHub workflow
+
+The Dev Kit teaches Git and GitHub as an engineering workflow rather than a disconnected command list.
+
+The material connects concepts such as repository structure, commits, branches, pull requests, recovery and documentation so the student can understand how the pieces work together around a real project.
+
+## <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> Bilingual learning
 
 The material is being prepared in **French and Arabic**, with equivalent learning goals rather than treating Arabic as an afterthought.
 
@@ -53,7 +73,7 @@ That means the project has to consider:
 - navigation parity; and
 - examples that make sense to Moroccan students.
 
-## Repository discipline
+## <img src="../../assets/icons/github-practice.svg" width="20" alt=""> Repository discipline
 
 The Dev Kit is itself used as an example of the practices it teaches.
 
@@ -67,7 +87,7 @@ The project is designed around:
 - contribution rules; and
 - checks that help prevent broken or unsafe learning material.
 
-## Privacy and rights
+## <img src="../../assets/icons/cybersecurity.svg" width="20" alt=""> Privacy and rights
 
 Student-facing educational repositories can accidentally teach bad habits if examples contain real identifiers, copied materials or secrets.
 
@@ -79,13 +99,13 @@ The Dev Kit therefore treats these as first-class rules:
 - no private N9raw/Nour code or production data; and
 - no offensive-security material without a safe and legal educational frame.
 
-## Current state
+## <img src="../../assets/icons/verified-learning.svg" width="20" alt=""> Current state
 
 The repository foundation is still being reviewed before it is presented as a fully public Open Lab release.
 
 The current draft already contains practical Git/GitHub guides and university-project README templates in French and Arabic, but publication status and reuse rights are intentionally treated as separate decisions.
 
-## What this project demonstrates
+## <img src="../../assets/icons/github-practice.svg" width="20" alt=""> What this project demonstrates
 
 This project shows a different part of my engineering work:
 
