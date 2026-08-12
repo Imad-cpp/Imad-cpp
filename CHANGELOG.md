@@ -2,7 +2,11 @@
 
 All meaningful public-profile changes are recorded here.
 
-## 2026-08-12 — Profile v1 / Engineering Signal
+## 2026-08-12 — Profile v1.0.0 / Engineering Signal
+
+### Release scope
+
+Profile v1.0.0 establishes the first maintained public baseline for the personal GitHub profile: a concise root profile, verified deeper pages, public-safe project case studies, the IMAD-CPP / Engineering Signal visual system and automated profile-quality validation.
 
 ### Added
 
