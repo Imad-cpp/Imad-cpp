@@ -1,69 +1,127 @@
-<img align="right" width="220" src="https://avatars.githubusercontent.com/u/214829093?v=4" alt="Portrait of Imadeddine Es-sebaiy" />
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Imadeddine Es-sebaiy — Software Engineer, AI, Cybersecurity and Product Builder" />
+</p>
 
-# Imadeddine Es-sebaiy
-
-**Software Engineering · AI · Cybersecurity · Product Building**
-
-I build useful, secure and scalable digital products with a focus on engineering, intelligent systems and reliable infrastructure.
-
-Based in Morocco 🇲🇦
-
-<br clear="right" />
+<p align="center">
+  <a href="https://es-sebaiy.com">Website</a>
+  &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/imadeddine-es-sebaiy">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://n9raw.com">N9raw</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Imad-cpp">GitHub</a>
+</p>
 
 ---
 
 ## About
 
-I enjoy turning complex ideas into structured, practical systems. My work spans product engineering, backend development, artificial intelligence, cybersecurity and infrastructure.
+I build useful, secure and scalable digital products, with a focus on **software engineering**, **artificial intelligence**, **cybersecurity** and **reliable infrastructure**.
 
-My current focus is building technology that solves real problems and can grow into dependable products.
+I enjoy turning complex ideas into structured systems that solve real problems. My work spans product engineering, backend development, automation, infrastructure and student-focused technology.
+
+Based in **Morocco**. Founder and builder of **N9raw**.
+
+---
 
 ## Currently building
 
-### N9raw
-**Moroccan Student Operating System**
+### N9raw — Moroccan Student Operating System
 
-A platform designed to help Moroccan students study, make informed education choices, discover opportunities and move from education toward their first career.
+A platform designed to help Moroccan students **study, make informed education choices, discover opportunities and move from education toward their first career**.
 
-`Next.js` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch`
+**Engineering:** `Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch`
+
+**Product direction:** search-first discovery, verified information, structured student journeys, useful personalisation and privacy-conscious student services.
+
+[Visit N9raw](https://n9raw.com)
+
+---
 
 ## Selected work
 
-### 01 — N9raw
-Education platform for Moroccan students.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**Focus:** Product · Engineering · Infrastructure
+### 01 · N9raw
 
-### 02 — Nour
-Student services and WhatsApp automation platform.
+**Education technology**
 
-**Focus:** Backend · Automation · Operations
+A student platform for studying, orientation, opportunities and guidance in Morocco.
 
-### 03 — Student Developer Kit
-Open learning resources for students learning Git, GitHub and software development.
+`Product` · `Engineering` · `Infrastructure`
 
-**Focus:** Developer Education · Open Source
+</td>
+<td width="33%" valign="top">
+
+### 02 · Nour
+
+**Student services & automation**
+
+A WhatsApp-first student assistant and service platform for FPN students.
+
+`Backend` · `Automation` · `Operations`
+
+</td>
+<td width="33%" valign="top">
+
+### 03 · Student Dev Kit
+
+**Developer education**
+
+Open learning resources that help students learn Git, GitHub and software development through practice.
+
+`Education` · `Open Source` · `Developer Tools`
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Engineering focus
 
-- **Product Engineering** — web platforms, backend systems, APIs and scalable product foundations
-- **Artificial Intelligence** — AI-assisted systems, automation and data-driven tooling
-- **Cybersecurity** — secure architecture, privacy and defensive engineering
-- **Infrastructure** — Linux, deployment, networking, CI/CD and cloud operations
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Product Engineering
+
+Web platforms, APIs, backend systems, scalable foundations and practical product architecture.
+
+### Artificial Intelligence
+
+AI-assisted systems, automation, structured data and grounded tooling.
+
+</td>
+<td width="50%" valign="top">
+
+### Cybersecurity
+
+Secure architecture, privacy, defensive engineering and responsible data handling.
+
+### Infrastructure
+
+Linux, deployment, networking, CI/CD, cloud operations and production reliability.
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Technology
 
-**Languages**  
-TypeScript · PHP · Python · C++ · Java
+| Area | Tools |
+| --- | --- |
+| **Languages** | `TypeScript` · `PHP` · `Python` · `C++` · `Java` |
+| **Frontend** | `Next.js` · `React` |
+| **Backend** | `Laravel` · `REST APIs` |
+| **Data & Search** | `PostgreSQL` · `Redis` · `Meilisearch` |
+| **Infrastructure** | `Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` |
 
-**Web & Backend**  
-Next.js · React · Laravel · REST APIs
-
-**Data & Search**  
-PostgreSQL · Redis · Meilisearch
-
-**Infrastructure**  
-Linux · Nginx · Cloudflare · GitHub Actions
+---
 
 ## Education
 
@@ -73,11 +131,15 @@ Faculté Pluridisciplinaire de Nador · Université Mohammed Premier
 **Cybersecurity Certificate**  
 Université Mohammed VI Polytechnique
 
+---
+
 ## Connect
 
-- [N9raw](https://n9raw.com)
-- [GitHub](https://github.com/Imad-cpp)
+- **Website:** [es-sebaiy.com](https://es-sebaiy.com)
+- **LinkedIn:** [Imadeddine Es-sebaiy](https://linkedin.com/in/imadeddine-es-sebaiy)
+- **GitHub:** [@Imad-cpp](https://github.com/Imad-cpp)
+- **N9raw:** [n9raw.com](https://n9raw.com)
 
 ---
 
-> Build useful systems. Keep them understandable. Make them last.
+> **Build useful systems. Keep them understandable. Make them last.**
