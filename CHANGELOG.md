@@ -2,27 +2,41 @@
 
 All meaningful public-profile changes are recorded here.
 
-## Unreleased — Profile v2
+## 2026-08-12 — Profile v1 / Engineering Signal
 
 ### Added
 
-- Project-grade architecture for the personal GitHub profile.
-- Premium Minimal Engineer visual-system specification.
+- **IMAD-CPP / Engineering Signal System** as the approved personal visual language.
+- Responsive desktop/mobile light/dark identity hero family.
+- Detailed GitHub-native pages for About, Work, Education, Certifications and GitHub Engineering.
+- Public-safe case studies for N9raw, Nour FPN, N9raw Student Dev Kit and Nexar.
 - Verified content/source register for LinkedIn, education, certifications and GitHub evidence.
+- Project-grade profile architecture and visual-system documentation.
 
-### Planned
+### Changed
 
-- Verified deep pages for About, Work, Education, Certifications and GitHub Engineering.
-- Public-safe project case studies.
-- Responsive desktop/mobile light/dark hero family.
-- Profile README rebuild around progressive disclosure.
-- Lightweight profile-quality CI and pull-request template.
+- Rebuilt the root profile README as a concise homepage with progressive links into deeper pages.
+- Replaced the stale generic `Licence SMI` profile label with the verified `Informatique et Intelligence Artificielle` degree wording.
+- Separated personal academic history from official institution/program descriptions.
+- Reframed technology and GitHub claims around evidence and real project work rather than badge/stat walls.
+- Kept private repositories as internal verification sources without presenting them as publicly inspectable evidence.
 
-## 2026-08-12 — Profile v1
+### Visual rules
+
+- Static only: no GIFs, typing effects, animated SVG, visitor counters or remote stat cards.
+- Native Markdown carries important content; SVG supports identity and recognition.
+- Mobile and desktop readability are treated separately rather than shrinking one fixed desktop composition.
+
+### Repository policy
+
+- The intended steady state is a single `main` branch for this owner-only profile repository.
+- Historical development branches should be removed after their work is incorporated.
+
+## Earlier 2026-08-12 iterations
 
 ### Added
 
-- Static GitHub profile README.
+- Initial static GitHub profile README.
 - Theme-aware identity hero.
 - Static N9raw, Nour and N9raw Student Developer Kit project visuals.
 - Native Markdown sections for engineering focus, technology, education and contact links.
