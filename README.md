@@ -31,6 +31,20 @@ My strongest work sits between product and engineering: defining the problem, st
 
 [About me →](./profile/about.md) · [Detailed work →](./profile/work.md)
 
+## Signal areas
+
+<img src="./assets/icons/product-engineering.svg" width="24" alt=""> **Product engineering** — product structure, system design and implementation boundaries.
+
+<img src="./assets/icons/backend-systems.svg" width="24" alt=""> **Backend systems** — APIs, integrations, queues, application logic and administration.
+
+<img src="./assets/icons/cybersecurity.svg" width="24" alt=""> **Cybersecurity** — access control, privacy boundaries, secrets and defensive engineering.
+
+<img src="./assets/icons/infrastructure.svg" width="24" alt=""> **Infrastructure** — Linux, Nginx, deployment, diagnostics and operational reliability.
+
+<img src="./assets/icons/github-practice.svg" width="24" alt=""> **GitHub practice** — coherent commits, CI, ADRs, changelogs and traceable engineering history.
+
+<img src="./assets/icons/verified-learning.svg" width="24" alt=""> **Verified learning** — real programs, sourced credentials and applied technical learning.
+
 ## Current focus — N9raw
 
 <p align="center">
