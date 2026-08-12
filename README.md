@@ -1,118 +1,151 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img src="./assets/hero-light.svg" width="100%" alt="Imadeddine Es-sebaiy — Software Engineer, AI, Cybersecurity and Product Builder">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/hero/hero-mobile-dark.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/hero/hero-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/hero-desktop-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/hero-desktop-light.svg">
+    <img src="./assets/hero/hero-desktop-light.svg" width="100%" alt="Imadeddine Es-sebaiy — founder, product builder, software engineering and cybersecurity">
   </picture>
 </p>
 
 <p align="center">
   <a href="https://es-sebaiy.com">Website</a> ·
   <a href="https://www.linkedin.com/in/imadeddine-es-sebaiy">LinkedIn</a> ·
-  <a href="https://github.com/Imad-cpp?tab=repositories">Repositories</a> ·
-  <a href="https://n9raw.com">N9raw</a>
+  <a href="https://n9raw.com">N9raw</a> ·
+  <a href="https://github.com/Imad-cpp?tab=repositories">Repositories</a>
 </p>
 
-## About
+<p align="center">
+  <a href="./profile/about.md">About</a> ·
+  <a href="./profile/work.md">Work</a> ·
+  <a href="./profile/education.md">Education</a> ·
+  <a href="./profile/certifications.md">Certifications</a> ·
+  <a href="./profile/github-engineering.md">GitHub Engineering</a>
+</p>
 
-I build useful, secure and scalable digital products, with a focus on **software engineering, intelligent systems, cybersecurity and reliable infrastructure**.
+## What I build
 
-I enjoy turning complex ideas into structured systems that solve real problems. I care about clear architecture, useful products, privacy, reliability and systems that can grow without becoming difficult to understand.
+I am a Moroccan founder and software builder working across **product engineering, backend systems, cybersecurity and infrastructure**.
 
-Based in **Morocco**.
+I like taking a real problem from idea to system: understanding the user, structuring the product, choosing clear architecture, building the software, connecting services, operating it reliably and documenting the decisions that matter.
 
-## Currently building
+[Read the full profile →](./profile/about.md)
+
+## Currently building — N9raw
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/project-n9raw-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/project-n9raw-light.svg">
-    <img src="./assets/project-n9raw-light.svg" width="100%" alt="N9raw — currently building">
+    <img src="./assets/project-n9raw-light.svg" width="100%" alt="N9raw — Moroccan student platform">
   </picture>
 </p>
 
 ### N9raw — Moroccan Student Operating System
 
-N9raw is being built to help Moroccan students **study, make informed education choices, discover opportunities and move from education toward their first career**.
-
-`Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Cloudflare`
+N9raw is the main product I am building to help Moroccan students **study, make informed education choices, find trustworthy resources, discover opportunities and move toward their first career**.
 
 **Role:** Founder · Product · Engineering · Infrastructure
 
-[Explore N9raw →](https://n9raw.com)
+**Approved architecture:** `Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Cloudflare`
 
-## Selected work
+[Explore N9raw](https://n9raw.com) · [Read the case study →](./profile/case-studies/n9raw.md)
 
-**N9raw** — flagship education product featured above.
+## Selected systems
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/project-nour-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/project-nour-light.svg">
-    <img src="./assets/project-nour-light.svg" width="100%" alt="Nour — selected work">
+    <img src="./assets/project-nour-light.svg" width="100%" alt="Nour FPN — WhatsApp-first student assistant">
   </picture>
 </p>
 
-### Nour
+### Nour FPN
 
-A WhatsApp-first student assistant and service platform for FPN students, built around practical academic services and automation.
+A WhatsApp-first student assistant for FPN Nador, built with Laravel, queued message processing, academic-service integrations and controlled administration.
 
-**Focus:** Backend · Automation · Integrations · Operations
+**Focus:** Backend · WhatsApp Cloud API · Automation · Integrations · Linux Operations
+
+[Read the Nour FPN case study →](./profile/case-studies/nour-fpn.md)
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/project-devkit-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/project-devkit-light.svg">
-    <img src="./assets/project-devkit-light.svg" width="100%" alt="N9raw Student Developer Kit — selected work">
+    <img src="./assets/project-devkit-light.svg" width="100%" alt="N9raw Student Dev Kit — practical Git and GitHub learning">
   </picture>
 </p>
 
-### N9raw Student Developer Kit
+### N9raw Student Dev Kit
 
-A hands-on learning project for students practising Git, GitHub and software development through structured material.
+A practical bilingual learning project for students learning Git, GitHub, project documentation and software-development workflow by building.
 
-**Focus:** Developer Education · Git · GitHub · Software Development
+**Focus:** Developer Education · Git · GitHub · Documentation · Privacy-safe Learning
 
-The repository is still being prepared before public presentation.
+[Read the Student Dev Kit case study →](./profile/case-studies/n9raw-student-dev-kit.md)
+
+### Nexar
+
+A gaming-hall founder project focused on designing a modern gaming experience in Morocco. I keep its profile evidence deliberately separate from software claims that are not yet implemented.
+
+**Role:** Founder
+
+[Read the Nexar case study →](./profile/case-studies/nexar.md)
 
 ## Engineering focus
 
 **01 · Product engineering**  
-Web platforms, backend systems, APIs, product architecture and scalable foundations.
+Product structure, web platforms, backend systems, APIs and maintainable architecture.
 
-**02 · Artificial intelligence**  
-AI-assisted systems, automation, structured data and practical tools grounded in real product needs.
+**02 · Security-minded systems**  
+Access control, privacy, defensive engineering, student-data boundaries and secure infrastructure thinking.
 
-**03 · Cybersecurity**  
-Secure architecture, privacy, defensive engineering, access control and responsible data handling.
+**03 · Infrastructure & reliability**  
+Linux, Nginx, queues, deployment, CI/CD, cloud/edge controls and production diagnostics.
 
-**04 · Infrastructure**  
-Linux, deployment, networking, CI/CD, cloud operations and production reliability.
+**04 · Engineering governance**  
+Source-of-truth documentation, decision records, scoped changes, review gates and useful repository history.
+
+[See detailed work and capabilities →](./profile/work.md)
+
+## GitHub engineering
+
+I use GitHub as more than code storage: for scoped work, coherent commits, reviewable decisions, CI, documentation, changelogs and project history.
+
+I care more about whether a repository explains **what exists, why it exists and how to change it safely** than about contribution-count vanity metrics.
+
+[See how I work with Git and GitHub →](./profile/github-engineering.md)
+
+## Education & learning
+
+### Informatique et Intelligence Artificielle
+**Faculté Pluridisciplinaire de Nador · Université Mohammed Premier**  
+Degree completed in **2026**.
+
+### Applied Computer Science Program — Cybersecurity
+**UM6P / Higher Education Without Borders — ACSP**  
+Cybersecurity track · **2025–2026**.
+
+### Verified learning milestones
+
+`Computer Networks — ACSP` · `Linux Fundamentals — ACSP` · `Programming I — ACSP` · `ALX Professional Foundations`
+
+[Education →](./profile/education.md) · [Certifications →](./profile/certifications.md)
 
 ## Technology
 
 **Languages**  
 `TypeScript` · `PHP` · `Python` · `C++` · `Java`
 
-**Frontend**  
-`Next.js` · `React`
-
-**Backend**  
-`Laravel` · `REST APIs`
+**Web & Backend**  
+`Next.js` · `React` · `Laravel` · `REST APIs`
 
 **Data & Search**  
 `PostgreSQL` · `Redis` · `Meilisearch`
 
 **Infrastructure & Tooling**  
 `Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
-
-## Education
-
-### Licence SMI
-Faculté Pluridisciplinaire de Nador · Université Mohammed Premier
-
-### Cybersecurity Certificate
-Université Mohammed VI Polytechnique
 
 ## Connect
 
