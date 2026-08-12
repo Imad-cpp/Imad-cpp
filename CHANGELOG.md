@@ -34,6 +34,11 @@ This section records the refinement work completed after the `v1.0.0` baseline. 
 - Reorganized Nexar as founder/product evidence while making the software-evidence boundary explicit.
 - Extended the Engineering Signal system from large section/project visuals into small recognition and navigation cues across deeper pages.
 
+### Fixed
+
+- Clarified the N9raw stack label on the root README as **Approved architecture** so approved/future architecture is not implied to be fully implemented.
+- Normalized the Nexar case-study map and current-state heading hierarchy with the other project case studies.
+
 ### Visual-system rules added
 
 - Engineering Signal icons are recognition/navigation cues, not decoration.

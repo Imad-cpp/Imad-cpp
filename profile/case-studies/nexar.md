@@ -10,7 +10,7 @@
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Previous: Student Dev Kit](n9raw-student-dev-kit.md)
 
-**Case-study map**
+## Case-study map
 
 <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> **Concept** → define the gaming-hall direction and positioning  
 <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> **Experience** → connect equipment, layout, identity and customer flow  
@@ -80,7 +80,7 @@ Nexar adds a different dimension to my profile:
 - technology decisions in a real-world venue context; and
 - discipline about separating an idea from what is actually implemented.
 
-## Current state
+## <img src="../../assets/icons/verified-learning.svg" width="20" alt=""> Current state
 
 Nexar is an active founder project. Public claims in this case study are intentionally limited to the project direction and my role until more implementation evidence is ready to publish.
 

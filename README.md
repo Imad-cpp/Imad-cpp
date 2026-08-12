@@ -58,7 +58,7 @@ My strongest work sits between product and engineering: defining the problem, st
 **N9raw** is the main product I am building: a trusted Moroccan Student Operating System designed to help students study, orient themselves, discover opportunities and move toward further education and first employment.
 
 **Role:** Founder · Product · Engineering · Infrastructure  
-**Architecture:** `Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Cloudflare`
+**Approved architecture:** `Next.js` · `React` · `TypeScript` · `Laravel` · `PostgreSQL` · `Redis` · `Meilisearch` · `Cloudflare`
 
 [Explore N9raw](https://n9raw.com) · [Read the N9raw case study →](./profile/case-studies/n9raw.md)
 
