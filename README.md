@@ -1,90 +1,122 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Imadeddine Es-sebaiy — Software Engineer, AI, Cybersecurity and Product Builder" />
-</p>
+# Imadeddine Es-sebaiy
 
-<p align="center">
-  <img src="./assets/profile/portrait.jpg" width="150" alt="Portrait of Imadeddine Es-sebaiy" />
-</p>
+**Software Engineer · AI · Cybersecurity · Product Builder**
 
-<p align="center">
-  <strong>Software Engineer · AI · Cybersecurity · Product Builder</strong><br/>
-  Morocco 🇲🇦
-</p>
+I build useful, secure and scalable digital products, with a focus on software engineering, intelligent systems and reliable infrastructure.
 
-<p align="center">
-  <a href="https://es-sebaiy.com">Website</a>
-  &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/imadeddine-es-sebaiy">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://n9raw.com">N9raw</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Imad-cpp">GitHub</a>
-</p>
+Based in Morocco.
 
-<br/>
+[Personal website](https://es-sebaiy.com) · [LinkedIn profile](https://www.linkedin.com/in/imadeddine-es-sebaiy) · [N9raw](https://n9raw.com)
 
-<p align="center">
-  <img src="./assets/about.svg" width="100%" alt="About Imadeddine Es-sebaiy" />
-</p>
+## About
 
-I build useful, secure and scalable digital products. I enjoy turning complex ideas into structured systems that solve real problems across product engineering, backend development, AI, cybersecurity and infrastructure.
+I enjoy turning complex ideas into structured systems that solve real problems.
 
-<br/>
+My work spans product engineering, backend development, artificial intelligence, cybersecurity, automation and infrastructure. I care about clear architecture, useful products, privacy, reliability and building systems that can grow without becoming difficult to understand.
 
-<p align="center">
-  <img src="./assets/projects/n9raw.svg" width="100%" alt="N9raw — Moroccan Student Operating System" />
-</p>
+I am currently focused on building student technology and strengthening my engineering work across software, AI and security.
 
-**N9raw** is designed to help Moroccan students study, make informed education choices, discover opportunities and move from education toward their first career.
+## Currently building
 
-<p align="center">
-  <a href="https://n9raw.com"><strong>Visit N9raw →</strong></a>
-</p>
+### N9raw
 
-<br/>
+**Moroccan Student Operating System**
 
-<p align="center">
-  <img src="./assets/projects/selected-work.svg" width="100%" alt="Selected work: N9raw, Nour and Student Developer Kit" />
-</p>
+N9raw is being built to help Moroccan students study, make informed education choices, discover opportunities and move from education toward their first career.
 
-<p align="center">
-  <strong>N9raw</strong> · Product / Engineering / Infrastructure
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <strong>Nour</strong> · Backend / Automation / Operations
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <strong>Student Dev Kit</strong> · Education / Open Source
-</p>
+Current engineering stack:
 
-<br/>
+- Next.js and React
+- TypeScript
+- Laravel
+- PostgreSQL
+- Redis
+- Meilisearch
+- Cloudflare and GitHub Actions
 
-<p align="center">
-  <img src="./assets/engineering-focus.svg" width="100%" alt="Engineering focus: Product Engineering, Artificial Intelligence, Cybersecurity and Infrastructure" />
-</p>
+The product direction is search-first, structured around student journeys, verified information, useful personalisation and privacy-conscious services.
 
-<br/>
+[Explore N9raw](https://n9raw.com)
 
-<p align="center">
-  <img src="./assets/technology.svg" width="100%" alt="Technology stack" />
-</p>
+## Selected work
 
-<br/>
+### N9raw
 
-<p align="center">
-  <img src="./assets/education-connect.svg" width="100%" alt="Education and contact information" />
-</p>
+Education technology for Moroccan students, covering study resources, orientation, opportunities and guidance.
 
-<p align="center">
-  <a href="https://es-sebaiy.com">es-sebaiy.com</a>
-  &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/imadeddine-es-sebaiy">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Imad-cpp">@Imad-cpp</a>
-  &nbsp;·&nbsp;
-  <a href="https://n9raw.com">n9raw.com</a>
-</p>
+**Role:** Founder · Product · Engineering · Infrastructure
+
+### Nour
+
+A WhatsApp-first student assistant and service platform for FPN students, built around practical academic services and automation.
+
+**Focus:** Backend · Automation · Integrations · Operations
+
+### N9raw Student Developer Kit
+
+A learning project designed to help students practise Git, GitHub and software development through structured, hands-on material.
+
+**Focus:** Developer Education · Git · GitHub · Software Development
+
+The repository is still being prepared before it is presented publicly.
+
+## Engineering focus
+
+### Product engineering
+
+Web platforms, backend systems, APIs, product architecture and scalable foundations.
+
+### Artificial intelligence
+
+AI-assisted systems, automation, structured data and practical tools grounded in real product needs.
+
+### Cybersecurity
+
+Secure architecture, privacy, defensive engineering, access control and responsible data handling.
+
+### Infrastructure
+
+Linux, deployment, networking, CI/CD, cloud operations and production reliability.
+
+## Technology
+
+### Languages
+
+TypeScript · PHP · Python · C++ · Java
+
+### Frontend
+
+Next.js · React
+
+### Backend
+
+Laravel · REST APIs
+
+### Data and search
+
+PostgreSQL · Redis · Meilisearch
+
+### Infrastructure and tooling
+
+Linux · Nginx · Cloudflare · GitHub Actions · Git
+
+## Education
+
+### Licence SMI
+
+Faculté Pluridisciplinaire de Nador · Université Mohammed Premier
+
+### Cybersecurity Certificate
+
+Université Mohammed VI Polytechnique
+
+## Connect
+
+- [Visit my personal website](https://es-sebaiy.com)
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/imadeddine-es-sebaiy)
+- [View my GitHub repositories](https://github.com/Imad-cpp?tab=repositories)
+- [Visit N9raw](https://n9raw.com)
 
 ---
 
-<p align="center">
-  <strong>Build useful systems. Keep them understandable. Make them last.</strong>
-</p>
+**Build useful systems. Keep them understandable. Make them last.**
