@@ -35,9 +35,9 @@ I like taking a real problem from idea to system: understanding the user, struct
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-n9raw-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/project-n9raw-light.svg">
-    <img src="./assets/project-n9raw-light.svg" width="100%" alt="N9raw — Moroccan student platform">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-n9raw-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-n9raw-light.svg">
+    <img src="./assets/projects/case-n9raw-light.svg" width="100%" alt="N9raw — Product, Architecture, Engineering and Infrastructure">
   </picture>
 </p>
 
@@ -55,9 +55,9 @@ N9raw is the main product I am building to help Moroccan students **study, make 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-nour-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/project-nour-light.svg">
-    <img src="./assets/project-nour-light.svg" width="100%" alt="Nour FPN — WhatsApp-first student assistant">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-nour-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-nour-light.svg">
+    <img src="./assets/projects/case-nour-light.svg" width="100%" alt="Nour FPN — Backend, Integrations, Automation and Operations">
   </picture>
 </p>
 
@@ -71,9 +71,9 @@ A WhatsApp-first student assistant for FPN Nador, built with Laravel, queued mes
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-devkit-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/project-devkit-light.svg">
-    <img src="./assets/project-devkit-light.svg" width="100%" alt="N9raw Student Dev Kit — practical Git and GitHub learning">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-devkit-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-devkit-light.svg">
+    <img src="./assets/projects/case-devkit-light.svg" width="100%" alt="N9raw Student Dev Kit — Developer Education, Git, GitHub and Documentation">
   </picture>
 </p>
 
@@ -84,6 +84,14 @@ A practical bilingual learning project for students learning Git, GitHub, projec
 **Focus:** Developer Education · Git · GitHub · Documentation · Privacy-safe Learning
 
 [Read the Student Dev Kit case study →](./profile/case-studies/n9raw-student-dev-kit.md)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects/case-nexar-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/projects/case-nexar-light.svg">
+    <img src="./assets/projects/case-nexar-light.svg" width="100%" alt="Nexar — Founder, Product Experience and Operations">
+  </picture>
+</p>
 
 ### Nexar
 
