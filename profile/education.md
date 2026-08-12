@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/education-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../assets/sections/education-light.svg">
+    <img src="../assets/sections/education-light.svg" width="100%" alt="Education — Learn & Apply">
+  </picture>
+</p>
+
 # Education
 
 [← Back to profile](../README.md) · [About](about.md) · [Work](work.md) · [Certifications](certifications.md) · [GitHub Engineering](github-engineering.md)
