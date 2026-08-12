@@ -64,7 +64,7 @@ My strongest work sits between product and engineering: defining the problem, st
 
 ## Selected systems
 
-### Nour FPN
+### <img src="./assets/icons/backend-systems.svg" width="20" alt=""> Nour FPN
 
 **WhatsApp-first student assistant · Backend · Integrations · Operations**
 
@@ -72,7 +72,7 @@ Laravel, queued message processing, WhatsApp Cloud API integration, academic-ser
 
 [Case study →](./profile/case-studies/nour-fpn.md)
 
-### N9raw Student Dev Kit
+### <img src="./assets/icons/github-practice.svg" width="20" alt=""> N9raw Student Dev Kit
 
 **Developer education · Git · GitHub · Bilingual documentation**
 
@@ -80,7 +80,7 @@ Practical French/Arabic learning material for students building Git/GitHub workf
 
 [Case study →](./profile/case-studies/n9raw-student-dev-kit.md)
 
-### Nexar
+### <img src="./assets/icons/product-engineering.svg" width="20" alt=""> Nexar
 
 **Founder · Product experience · Operations**
 
