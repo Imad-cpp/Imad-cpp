@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/projects/case-nexar-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../../assets/projects/case-nexar-light.svg">
+    <img src="../../assets/projects/case-nexar-light.svg" width="100%" alt="Nexar case study — Founder, Product Experience and Operations">
+  </picture>
+</p>
+
 # Nexar — Case Study
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Previous: Student Dev Kit](n9raw-student-dev-kit.md)
