@@ -12,7 +12,13 @@
 
 This page separates **my personal academic history** from **official program descriptions** so that the profile does not turn institutional marketing into personal claims.
 
-## Informatique et Intelligence Artificielle
+## Education path
+
+<img src="../assets/icons/verified-learning.svg" width="20" alt=""> **Degree · Completed 2026** — Informatique et Intelligence Artificielle · Faculté Pluridisciplinaire de Nador · Université Mohammed Premier
+
+<img src="../assets/icons/cybersecurity.svg" width="20" alt=""> **Cybersecurity program · 2025–2026** — Applied Computer Science Program · UM6P / Higher Education Without Borders — ACSP
+
+## <img src="../assets/icons/verified-learning.svg" width="22" alt=""> Informatique et Intelligence Artificielle
 
 **Faculté Pluridisciplinaire de Nador — Université Mohammed Premier**  
 **Completed: 2026**
@@ -36,7 +42,7 @@ FPN's current official diploma catalogue lists **Informatique et Intelligence Ar
 
 - [Faculté Pluridisciplinaire de Nador — Diplômes](https://fpn.ump.ma/index.php/fr/diplomes)
 
-## Applied Computer Science Program — Cybersecurity
+## <img src="../assets/icons/cybersecurity.svg" width="22" alt=""> Applied Computer Science Program — Cybersecurity
 
 **UM6P / Higher Education Without Borders — ACSP**  
 **2025–2026**  
@@ -59,15 +65,17 @@ The cybersecurity path reinforces the way I already like to build systems: permi
 
 ## Learning approach
 
-My education is most useful to me when it becomes something I can test in a real system.
+My education is most useful to me when it becomes something I can test in a real system. That is why I combine formal study with active product work:
 
-That is why I combine formal study with active product work:
+<img src="../assets/icons/product-engineering.svg" width="20" alt=""> **Software → architecture** — software concepts become application architecture.
 
-- software concepts become application architecture;
-- networking becomes deployment and infrastructure reasoning;
-- security concepts become access-control and privacy decisions;
-- AI concepts become structured, use-case-driven product thinking; and
-- Git/GitHub becomes an engineering workflow rather than only version control.
+<img src="../assets/icons/infrastructure.svg" width="20" alt=""> **Networking → infrastructure** — networking becomes deployment and infrastructure reasoning.
+
+<img src="../assets/icons/cybersecurity.svg" width="20" alt=""> **Security → product decisions** — security concepts become access-control and privacy decisions.
+
+<img src="../assets/icons/product-engineering.svg" width="20" alt=""> **AI → use cases** — AI concepts become structured, use-case-driven product thinking.
+
+<img src="../assets/icons/github-practice.svg" width="20" alt=""> **Git/GitHub → workflow** — Git/GitHub becomes an engineering workflow rather than only version control.
 
 ## Sources and verification
 
