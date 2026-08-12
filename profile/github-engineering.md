@@ -12,7 +12,16 @@
 
 GitHub is not only where I store code. In my project work, I use it as a **system of record for engineering decisions, review, delivery and project history**.
 
-## My working model
+## Engineering record map
+
+<img src="../assets/icons/product-engineering.svg" width="20" alt=""> **Scope** — problem, boundaries, source of truth and definition of done.  
+<img src="../assets/icons/github-practice.svg" width="20" alt=""> **History** — small coherent commits and repository hygiene.  
+<img src="../assets/icons/backend-systems.svg" width="20" alt=""> **Quality** — checks, CI, tests and repeatable validation.  
+<img src="../assets/icons/product-engineering.svg" width="20" alt=""> **Decisions** — review boundaries, ADRs and documented tradeoffs.  
+<img src="../assets/icons/infrastructure.svg" width="20" alt=""> **Delivery** — merge, release, deployment and rollback records.  
+<img src="../assets/icons/cybersecurity.svg" width="20" alt=""> **Safety** — secrets, data boundaries, access and publication hygiene.
+
+## <img src="../assets/icons/github-practice.svg" width="20" alt=""> My working model
 
 A typical substantial change starts with a clear problem or scoped task and moves through a controlled path:
 
@@ -36,7 +45,7 @@ Documentation and changelog
 
 The exact workflow changes with the repository. A production platform needs stronger review gates than a personal profile repository, but the principle stays the same: **changes should be understandable after the fact**.
 
-## Issues and scoped work
+## <img src="../assets/icons/product-engineering.svg" width="20" alt=""> Issues and scoped work
 
 For larger projects, I prefer to connect implementation to a defined issue, backlog item or documented objective instead of making unrelated changes under one vague task.
 
@@ -48,13 +57,13 @@ A good scoped item answers:
 - what needs to be tested; and
 - what would make the work complete.
 
-## Branches and repository hygiene
+## <img src="../assets/icons/github-practice.svg" width="20" alt=""> Branches and repository hygiene
 
 On collaborative or production-sensitive repositories, I use short-lived branches for isolated changes and remove them after merge so the repository does not accumulate stale work.
 
 For this personal profile repository, I currently keep a deliberate **single-branch steady state (`main`)** because it is owner-only and the profile itself is the published artifact. Historical feature branches are not part of the intended long-term structure.
 
-## Commits
+## <img src="../assets/icons/github-practice.svg" width="20" alt=""> Commits
 
 I prefer commits that describe one coherent change and can be understood without reading an entire conversation around them.
 
@@ -69,7 +78,7 @@ security: tighten staging access controls
 
 The goal is not perfect commit-message aesthetics. The goal is useful history.
 
-## Pull requests and review
+## <img src="../assets/icons/product-engineering.svg" width="20" alt=""> Pull requests and review
 
 For projects where change risk justifies it, pull requests are the review boundary.
 
@@ -85,7 +94,7 @@ A useful PR should explain:
 
 I avoid treating a PR as complete only because the code compiles.
 
-## Architecture decisions
+## <img src="../assets/icons/product-engineering.svg" width="20" alt=""> Architecture decisions
 
 For N9raw, material architecture and policy decisions are recorded before implementation rather than being hidden inside code changes.
 
@@ -100,7 +109,7 @@ The project uses concepts such as:
 
 This gives future implementation a stable reference and makes it easier to detect when a new idea conflicts with an earlier approved decision.
 
-## CI and quality gates
+## <img src="../assets/icons/backend-systems.svg" width="20" alt=""> CI and quality gates
 
 I use automation to make routine quality checks repeatable.
 
@@ -117,7 +126,7 @@ Depending on the repository, checks can include:
 
 CI is most useful when it protects an agreed engineering rule, not when it exists only to display a green badge.
 
-## Documentation as engineering evidence
+## <img src="../assets/icons/verified-learning.svg" width="20" alt=""> Documentation as engineering evidence
 
 A maintained repository should help the next person understand both **what exists** and **why it exists**.
 
@@ -132,7 +141,7 @@ Documentation I value includes:
 - release procedures; and
 - safe rollback instructions.
 
-## Security and GitHub hygiene
+## <img src="../assets/icons/cybersecurity.svg" width="20" alt=""> Security and GitHub hygiene
 
 I treat repositories as a potential security boundary.
 
@@ -146,7 +155,7 @@ My working rules include:
 - narrow access to privileged systems; and
 - review before publishing implementation details that could expose operational weaknesses.
 
-## Public evidence
+## <img src="../assets/icons/website.svg" width="20" alt=""> Public evidence
 
 Some of my main product repositories are intentionally private while they are under development. I do not present a private repository link as if a visitor can inspect it.
 
