@@ -1,0 +1,126 @@
+# Work
+
+[← Back to profile](../README.md) · [About](about.md) · [Education](education.md) · [Certifications](certifications.md) · [GitHub Engineering](github-engineering.md)
+
+I work across the full path from an idea to a maintained digital product. The sections below focus on **capabilities backed by real project work**, not a generic list of technologies.
+
+## Product and software engineering
+
+I turn broad product ideas into structured scopes, user journeys, data models, system boundaries and implementation plans.
+
+**Evidence:**
+
+- **N9raw** — product direction, information architecture, technical architecture and implementation governance for a Moroccan student platform.
+- **Nour FPN** — student-facing services, WhatsApp interaction flows and a Laravel administration surface.
+
+What this work includes:
+
+- defining product scope and non-scope;
+- translating student problems into usable flows;
+- designing modular application boundaries;
+- structuring implementation phases;
+- documenting decisions before large technical changes; and
+- keeping architecture aligned with the product instead of treating it as a separate exercise.
+
+## Backend systems, APIs and integrations
+
+A large part of my practical work is backend-oriented.
+
+With Nour FPN, I have worked on a Laravel application connected to the WhatsApp Cloud API, background jobs and FPN-related academic services. The system handles student interactions, academic-service requests, administration and operational workflows.
+
+Areas I have worked with include:
+
+- Laravel application architecture;
+- REST and webhook integrations;
+- queues and asynchronous message processing;
+- session/state-machine style conversational flows;
+- validation and access control;
+- academic catalogue mapping;
+- administration workflows; and
+- error handling and operational controls.
+
+## Infrastructure and delivery
+
+I am comfortable working below the application layer when a project needs it.
+
+My practical infrastructure work includes:
+
+- Linux server administration;
+- Nginx and PHP-FPM deployments;
+- process supervision and queues;
+- environment and secret handling;
+- Cloudflare-oriented access and edge planning;
+- GitHub Actions and CI checks;
+- deployment and rollback procedures;
+- domain/subdomain routing; and
+- production diagnostics.
+
+I prefer infrastructure that is documented and reversible rather than a collection of commands that only one person understands.
+
+## Security-minded engineering
+
+My cybersecurity studies directly influence how I approach software projects.
+
+I pay attention to:
+
+- server-side permissions;
+- authentication and privileged access;
+- secret management;
+- private file delivery;
+- data minimisation;
+- safe logging and analytics;
+- rate limiting;
+- audit trails;
+- staging isolation; and
+- threat-aware system design.
+
+For student products, this matters even more because educational systems can involve minors, identifiers and sensitive academic information.
+
+## Technical architecture and documentation
+
+I treat architecture and documentation as part of engineering work.
+
+For N9raw, the project workflow includes source-of-truth documentation, decision logs, architecture decision records, implementation phases, quality gates, progress records and change history.
+
+The objective is not documentation for its own sake. The objective is to make important decisions **reviewable, traceable and harder to accidentally undo**.
+
+## Developer education
+
+Through the **N9raw Student Dev Kit**, I am also working on practical material for students learning Git, GitHub and software-development workflow.
+
+The kit is designed around tasks that produce a verifiable result, such as:
+
+- creating a first local Git repository;
+- connecting a repository to GitHub;
+- opening a first pull request;
+- recovering from common Git mistakes without losing work; and
+- documenting university projects clearly in French and Arabic.
+
+## Technology I use
+
+### Languages
+
+`TypeScript` · `PHP` · `Python` · `C++` · `Java`
+
+### Web and backend
+
+`Next.js` · `React` · `Laravel` · `REST APIs`
+
+### Data and search
+
+`PostgreSQL` · `Redis` · `Meilisearch`
+
+### Infrastructure and tooling
+
+`Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
+
+## Project case studies
+
+- [N9raw →](case-studies/n9raw.md)
+- [Nour FPN →](case-studies/nour-fpn.md)
+- [N9raw Student Dev Kit →](case-studies/n9raw-student-dev-kit.md)
+- [Nexar →](case-studies/nexar.md)
+
+---
+
+**Next:** [See my GitHub engineering workflow →](github-engineering.md)
