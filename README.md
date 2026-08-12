@@ -132,7 +132,13 @@ UM6P / Higher Education Without Borders — ACSP · **2025–2026**
 
 ## Connect
 
-[Personal website](https://es-sebaiy.com) · [LinkedIn](https://www.linkedin.com/in/imadeddine-es-sebaiy) · [Repositories](https://github.com/Imad-cpp?tab=repositories) · [N9raw](https://n9raw.com)
+<img src="./assets/icons/website.svg" width="20" alt=""> **Personal website** — [es-sebaiy.com](https://es-sebaiy.com)
+
+<img src="./assets/icons/professional-network.svg" width="20" alt=""> **Professional network** — [LinkedIn](https://www.linkedin.com/in/imadeddine-es-sebaiy)
+
+<img src="./assets/icons/github-practice.svg" width="20" alt=""> **Repositories** — [github.com/Imad-cpp](https://github.com/Imad-cpp?tab=repositories)
+
+<img src="./assets/icons/product-engineering.svg" width="20" alt=""> **Current product** — [N9raw](https://n9raw.com)
 
 ---
 
