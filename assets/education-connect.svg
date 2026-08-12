@@ -1,0 +1,31 @@
+<svg width="1280" height="330" viewBox="0 0 1280 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Education and contact</title>
+  <desc id="desc">Static split panel showing Imadeddine Es-sebaiy's education and contact destinations.</desc>
+  <rect width="1280" height="330" rx="24" fill="#F4F1E9"/>
+
+  <g transform="translate(46 48)">
+    <text x="0" y="18" fill="#426D59" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">06 / EDUCATION</text>
+    <text x="0" y="76" fill="#111915" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">Licence SMI</text>
+    <text x="0" y="108" fill="#5D6963" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Faculté Pluridisciplinaire de Nador</text>
+    <text x="0" y="134" fill="#7A8580" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Université Mohammed Premier</text>
+    <path d="M0 162H520" stroke="#D5DDD8"/>
+    <text x="0" y="207" fill="#111915" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">Cybersecurity Certificate</text>
+    <text x="0" y="239" fill="#5D6963" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Université Mohammed VI Polytechnique</text>
+  </g>
+
+  <rect x="638" y="34" width="2" height="262" fill="#D5DDD8"/>
+
+  <g transform="translate(690 48)">
+    <text x="0" y="18" fill="#426D59" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">07 / CONNECT</text>
+    <text x="0" y="76" fill="#111915" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="800">Find me online</text>
+    <rect x="0" y="106" width="240" height="46" rx="13" fill="#101A16"/>
+    <text x="24" y="135" fill="#62C08F" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">es-sebaiy.com</text>
+    <rect x="258" y="106" width="240" height="46" rx="13" fill="#101A16"/>
+    <text x="282" y="135" fill="#62C08F" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">LinkedIn</text>
+    <rect x="0" y="168" width="240" height="46" rx="13" fill="#101A16"/>
+    <text x="24" y="197" fill="#62C08F" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">github.com/Imad-cpp</text>
+    <rect x="258" y="168" width="240" height="46" rx="13" fill="#101A16"/>
+    <text x="282" y="197" fill="#62C08F" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">n9raw.com</text>
+    <text x="0" y="258" fill="#77837D" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Morocco · Open to useful engineering conversations.</text>
+  </g>
+</svg>
