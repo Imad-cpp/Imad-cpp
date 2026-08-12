@@ -10,6 +10,18 @@
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Next: Nour FPN](nour-fpn.md)
 
+## Case-study map
+
+<img src="../../assets/icons/product-engineering.svg" width="20" alt=""> **Problem → product structure** — fragmented student information becomes stage-, intent- and action-oriented journeys.
+
+<img src="../../assets/icons/backend-systems.svg" width="20" alt=""> **Product → architecture** — a web platform, modular API, structured data, search and administration boundaries.
+
+<img src="../../assets/icons/cybersecurity.svg" width="20" alt=""> **Architecture → trust** — permissions, privacy, source verification, controlled staging and student-data safeguards.
+
+<img src="../../assets/icons/github-practice.svg" width="20" alt=""> **Decisions → engineering record** — source-of-truth documents, ADRs, backlog order, CI and traceable change history.
+
+<img src="../../assets/icons/infrastructure.svg" width="20" alt=""> **Build → controlled delivery** — private staging, access isolation, deployment and rollback planning.
+
 ## Context
 
 **N9raw** is the main product I am building: a Moroccan student platform designed to help students move from studying and orientation toward opportunities, further education and their first steps into employment.
@@ -18,7 +30,7 @@ The product is intentionally broader than a resource library or a blog. Its long
 
 **Role:** Founder · Product · Engineering · Infrastructure
 
-## Problem
+## <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> Problem
 
 Moroccan students often have to search across university sites, social pages, groups, PDFs and disconnected services to answer basic questions:
 
@@ -30,7 +42,7 @@ Moroccan students often have to search across university sites, social pages, gr
 
 The problem is not only missing information. It is **fragmentation, trust and poor structure**.
 
-## Product approach
+## <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> Product approach
 
 N9raw is designed around five primary public areas:
 
@@ -46,16 +58,14 @@ Important factual content is designed to carry source, verification and lifecycl
 
 ## My role
 
-I work across multiple layers of the project:
-
-### Product
+### <img src="../../assets/icons/product-engineering.svg" width="20" alt=""> Product
 
 - defining the product direction and scope;
 - structuring student journeys;
 - prioritising useful actions over decorative features;
 - defining trust requirements for academic and opportunity information.
 
-### Architecture
+### <img src="../../assets/icons/backend-systems.svg" width="20" alt=""> Architecture
 
 - shaping the web/API architecture;
 - defining module boundaries;
@@ -63,7 +73,7 @@ I work across multiple layers of the project:
 - permissions and privacy rules;
 - staging and operational boundaries.
 
-### Engineering governance
+### <img src="../../assets/icons/github-practice.svg" width="20" alt=""> Engineering governance
 
 - source-of-truth documentation;
 - decision logs and ADRs;
@@ -71,7 +81,7 @@ I work across multiple layers of the project:
 - quality gates and definitions of done;
 - GitHub issues, commits, PRs and CI records.
 
-### Infrastructure
+### <img src="../../assets/icons/infrastructure.svg" width="20" alt=""> Infrastructure
 
 - private-staging planning;
 - access isolation;
@@ -79,33 +89,28 @@ I work across multiple layers of the project:
 - deployment and rollback thinking;
 - separation from other production workloads.
 
-## System approach
+## <img src="../../assets/icons/backend-systems.svg" width="20" alt=""> System approach
 
 The approved architecture uses:
 
-### Web
-
+**Web**  
 `Next.js` · `React` · `TypeScript`
 
-### API and administration
-
+**API and administration**  
 `Laravel` modular monolith · `Filament`
 
-### Data and async work
-
+**Data and async work**  
 `PostgreSQL` · `Redis` · queues
 
-### Search
-
+**Search**  
 `Meilisearch` with PostgreSQL remaining the source of truth
 
-### Edge and delivery
-
+**Edge and delivery**  
 `Cloudflare` · GitHub/GitHub Actions · private object storage design
 
 The project deliberately avoids microservices in the first version because the product does not yet need distributed-system complexity.
 
-## Important constraints
+## <img src="../../assets/icons/cybersecurity.svg" width="20" alt=""> Important constraints
 
 N9raw is designed for a student audience, including minors. That changes the engineering standard.
 
@@ -120,11 +125,9 @@ The project places emphasis on:
 - accessibility and Arabic/RTL support;
 - explicit approval before public launch.
 
-## GitHub engineering
+## <img src="../../assets/icons/github-practice.svg" width="20" alt=""> Engineering decisions and evidence
 
 The private platform project uses a documented engineering process where important decisions are traceable before implementation.
-
-Examples of the working model include:
 
 ```text
 Source of Truth
@@ -144,13 +147,13 @@ Progress + changelog update
 
 This discipline is particularly useful because product, data, security and architecture decisions can otherwise drift across long-running work.
 
-## Current state
+## <img src="../../assets/icons/infrastructure.svg" width="20" alt=""> Current state
 
 N9raw is under active development. The platform architecture and product blueprint are established, while implementation continues in controlled phases.
 
 The public GitHub organization contains the material that is intentionally ready to share. Private application repositories remain private while development is ongoing.
 
-## What this project demonstrates
+## <img src="../../assets/icons/verified-learning.svg" width="20" alt=""> What this project demonstrates
 
 N9raw is the clearest example of how I like to work across disciplines:
 
@@ -165,8 +168,8 @@ N9raw is the clearest example of how I like to work across disciplines:
 
 ## Public links
 
-- [N9raw](https://n9raw.com)
-- [N9raw on GitHub](https://github.com/N9RAW)
+<img src="../../assets/icons/website.svg" width="20" alt=""> [N9raw](https://n9raw.com)  
+<img src="../../assets/icons/github-practice.svg" width="20" alt=""> [N9raw on GitHub](https://github.com/N9RAW)
 
 ---
 
