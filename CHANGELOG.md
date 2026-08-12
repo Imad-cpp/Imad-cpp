@@ -2,6 +2,52 @@
 
 All meaningful public-profile changes are recorded here.
 
+## Unreleased — Post-v1.0 visual refinement
+
+This section records the refinement work completed after the `v1.0.0` baseline. It does **not** move or redefine the existing `v1.0.0` tag and is not yet a versioned release.
+
+### Added
+
+- Compact **Engineering Signal icon family** for Product Engineering, Backend Systems, Cybersecurity, Infrastructure, GitHub Practice and Verified Learning.
+- Additional local signal icons for the personal website and professional network.
+- Scan-first **Signal areas** on the root README.
+- Compact visual workflow cues for **How I engineer**.
+- Structured visual grouping for Education, Technology and Connect sections.
+- Capability-map treatment on the Work page.
+- Learning-path treatment on the Education page.
+- Verified-learning timeline treatment on the Certifications page.
+- Engineering-record map on the GitHub Engineering page.
+- Case-study maps for N9raw, Nour FPN, N9raw Student Dev Kit and Nexar.
+
+### Changed
+
+- Refined the root README for faster scanning while keeping the visual density restrained and GitHub-native.
+- Added compact project cues to Selected Systems without introducing a card wall.
+- Improved About page hierarchy with Engineering Signal cues while preserving the existing page header and factual content.
+- Reworked Work into a clearer capability hierarchy across product, backend, security, infrastructure, documentation and developer education.
+- Made the education path easier to scan as degree → cybersecurity program → applied learning.
+- Reframed certifications as a verified-learning timeline rather than a badge collection.
+- Reworked GitHub Engineering as an engineering system of record covering scope, commits, CI, ADRs, documentation, traceability and safety.
+- Reorganized N9raw case-study hierarchy around problem, role, system approach, decisions, evidence and current state.
+- Reorganized Nour FPN around student flow, backend/integrations, administration, multilingual design, privacy and operations.
+- Reorganized N9raw Student Dev Kit around learning outcomes, Git/GitHub workflow, bilingual parity, repository discipline, privacy and rights.
+- Reorganized Nexar as founder/product evidence while making the software-evidence boundary explicit.
+- Extended the Engineering Signal system from large section/project visuals into small recognition and navigation cues across deeper pages.
+
+### Visual-system rules added
+
+- Engineering Signal icons are recognition/navigation cues, not decoration.
+- Local static SVG is preferred; no remote badge/stat dependencies are introduced.
+- Green remains the structural/signal color and gold remains a restrained milestone accent.
+- Inline icons are generally used around `18–24px` and must be paired with explicit adjacent text.
+- Capability maps and case-study maps remain short, text-led and mobile-first.
+- Root README visual density should not keep growing once the first-read hierarchy is clear; deeper pages are the preferred place for additional detail.
+- Founder/product claims, private implementation evidence and public software claims remain explicitly separated.
+
+### Validation
+
+Each logical refinement was committed to `main` and validated by the repository's **Profile Quality** workflow, including internal link checks, SVG parsing/accessibility checks, static-only visual rules and basic secret hygiene.
+
 ## 2026-08-12 — Profile v1.0.0 / Engineering Signal
 
 ### Release scope

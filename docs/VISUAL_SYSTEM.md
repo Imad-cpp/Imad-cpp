@@ -91,6 +91,72 @@ The hero contains only:
 
 Detailed biography stays in Markdown.
 
+## Engineering Signal icon family
+
+The post-v1.0 refinement layer adds a compact local SVG icon family for repeated engineering signals:
+
+```text
+assets/icons/
+├── product-engineering.svg
+├── backend-systems.svg
+├── cybersecurity.svg
+├── infrastructure.svg
+├── github-practice.svg
+├── verified-learning.svg
+├── website.svg
+└── professional-network.svg
+```
+
+These icons are **recognition and navigation cues, not decoration**.
+
+Rules:
+
+- use only local static SVG assets;
+- use signal green for structure and a restrained gold milestone where meaningful;
+- do not substitute generic capability cues with official third-party logos;
+- do not build badge walls from the icon family;
+- do not repeat an icon merely to fill empty space;
+- keep inline usage compact, generally around `18–24px`;
+- when adjacent text already names the concept, an empty HTML `alt` is acceptable to avoid duplicate screen-reader output; and
+- standalone SVG assets still carry their own `<title>`, `<desc>` and `role="img"` metadata.
+
+## Scan-first page hierarchy
+
+Deep pages and case studies use compact text-led maps before long-form detail when that materially improves scanning.
+
+Approved patterns include:
+
+- **Signal areas** on the root README;
+- **Capability map** on Work;
+- **Learning path** on Education;
+- **Verified learning timeline** on Certifications;
+- **Engineering record map** on GitHub Engineering; and
+- **Case-study map** on project case studies.
+
+These maps must remain short and semantic. They are not substitutes for the detailed Markdown below them.
+
+A typical map uses an icon, a concise label and one short directional statement:
+
+```text
+Product → define the problem and system boundary
+Backend → implement application and integration logic
+Security → protect access, data and operational boundaries
+Infrastructure → deploy and operate reliably
+Evidence → keep claims traceable and reviewable
+```
+
+Avoid turning scan maps into large tables, card grids or decorative dashboards.
+
+## Visual density rules
+
+The root README is the highest-traffic surface and should remain visually restrained.
+
+- Do not keep adding new visual sections after the first-read hierarchy is already clear.
+- Prefer improving deeper pages over increasing root-page density.
+- Repeated content defaults to short rows or native Markdown structure, not cards.
+- Inline icons should improve recognition at a glance; if removing the icon does not reduce comprehension or navigation speed, the icon may be unnecessary.
+- Long explanations, evidence and caveats belong in deeper pages and case studies.
+
 ## Project visuals
 
 Project visuals are recognition surfaces, not generic UI cards.
@@ -105,6 +171,33 @@ They may contain:
 They do not replace the corresponding case study.
 
 When N9raw brand assets are used, N9raw's own approved Page Turn logo and brand rules remain authoritative. The personal Engineering Signal system must not alter or recreate the N9raw symbol.
+
+## Case-study presentation
+
+Case studies should tell a credible engineering or founder story without inflating evidence.
+
+Preferred hierarchy is adapted to the project, for example:
+
+```text
+Problem
+  ↓
+Role / Product approach
+  ↓
+System or operational approach
+  ↓
+Important decisions / constraints
+  ↓
+Evidence boundary
+  ↓
+Current state
+```
+
+The visual system must reinforce evidence quality:
+
+- private implementation detail is not presented as publicly inspectable evidence;
+- founder/product evidence is not converted into software claims without implementation proof;
+- security-sensitive infrastructure detail stays private; and
+- current-state wording must remain distinguishable from future direction.
 
 ## Native Markdown first
 
@@ -128,6 +221,7 @@ SVG is for identity and structure, not paragraphs.
 - Essential visual text remains readable around 320–390 px widths.
 - Native navigation may wrap naturally.
 - No information depends on hover.
+- Inline icons must remain legible without forcing horizontal scrolling.
 
 ## Light and dark mode
 
@@ -136,6 +230,8 @@ Theme variants carry the same hierarchy and meaning.
 Use `<picture>` for theme-aware rendering where GitHub supports the chosen markup.
 
 A dark asset is never treated as complete without its light counterpart when the asset is intended to be theme-aware.
+
+Compact Engineering Signal icons may use a single transparent asset when their palette remains legible on both GitHub themes.
 
 ## Accessibility
 
@@ -148,6 +244,8 @@ Major SVG assets must contain:
 - no essential information encoded by color alone.
 
 Visual links are never the only path to important content.
+
+Inline decorative/recognition icons must be paired with explicit adjacent text so meaning never depends on the icon alone.
 
 ## Static-only rule
 
@@ -182,5 +280,6 @@ A profile visual is ready only when:
 - it has accessible metadata;
 - it contains no animation;
 - it does not imitate generic GitHub profile templates;
-- it does not introduce an unrelated palette or motif; and
+- it does not introduce an unrelated palette or motif;
+- it improves recognition, navigation or hierarchy rather than only adding decoration; and
 - it supports the content instead of competing with it.
