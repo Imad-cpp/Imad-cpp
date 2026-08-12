@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/projects/case-n9raw-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../../assets/projects/case-n9raw-light.svg">
+    <img src="../../assets/projects/case-n9raw-light.svg" width="100%" alt="N9raw case study — Product, Architecture, Engineering and Infrastructure">
+  </picture>
+</p>
+
 # N9raw — Case Study
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Next: Nour FPN](nour-fpn.md)
