@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/projects/case-devkit-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../../assets/projects/case-devkit-light.svg">
+    <img src="../../assets/projects/case-devkit-light.svg" width="100%" alt="N9raw Student Dev Kit case study — Developer Education, Git, GitHub and Documentation">
+  </picture>
+</p>
+
 # N9raw Student Dev Kit — Case Study
 
 [← Back to Work](../work.md) · [Profile](../../README.md) · [Previous: Nour FPN](nour-fpn.md) · [Next: Nexar](nexar.md)
