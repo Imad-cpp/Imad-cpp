@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/github-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="../assets/sections/github-light.svg">
+    <img src="../assets/sections/github-light.svg" width="100%" alt="GitHub — Engineering Practice">
+  </picture>
+</p>
+
 # GitHub Engineering
 
 [← Back to profile](../README.md) · [About](about.md) · [Work](work.md) · [Education](education.md) · [Certifications](certifications.md)
