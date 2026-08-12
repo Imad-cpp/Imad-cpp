@@ -2,9 +2,11 @@
 
 All meaningful public-profile changes are recorded here.
 
-## Unreleased — Post-v1.0 visual refinement
+## 2026-08-12 — Profile v1.1.0 / Engineering Signal Refinement
 
-This section records the refinement work completed after the `v1.0.0` baseline. It does **not** move or redefine the existing `v1.0.0` tag and is not yet a versioned release.
+### Release scope
+
+Profile v1.1.0 refines the maintained Engineering Signal profile after the v1.0.0 baseline. It improves scanability, extends the visual language into compact local cues, strengthens deeper-page and case-study hierarchy, tightens evidence boundaries, and aligns the public GitHub account metadata with the profile contract.
 
 ### Added
 
