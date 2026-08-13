@@ -2,6 +2,27 @@
 
 All meaningful public-profile changes are recorded here.
 
+## 2026-08-13 — Secure File Gateway V1 Integration
+
+### Added
+
+- Added **Secure File Gateway** as the first fully public backend/security engineering system in the root profile's Selected Systems section.
+- Added a dedicated GitHub-native Secure File Gateway case study covering the V1 system boundary, security model, lifecycle, authorization, real-container evidence, release engineering and explicit evidence limits.
+- Added direct public evidence links to the repository, `v1.0.0` release, release audit, evidence ledger and OpenAPI contract.
+
+### Changed
+
+- Strengthened the Work page with inspectable Secure File Gateway evidence for Laravel APIs, object-level authorization, private file storage, Redis queues, ClamAV scanning, failure compensation and real dependency integration.
+- Extended GitHub Engineering with a concrete public four-job quality/release model: `php-quality`, `secret-hygiene`, `infrastructure-integration` and dependent `release-audit`.
+- Recorded the exact `v1.0.0` release commit and exact-commit publication model without converting release evidence into production-readiness claims.
+- Expanded the technology summary with `REST APIs`, `OpenAPI` and `Docker`, now backed by public project evidence.
+- Updated the profile architecture and content-source register so Secure File Gateway is a first-class public case study with explicit source and claim boundaries.
+
+### Evidence boundary
+
+- Secure File Gateway `v1.0.0` is presented as public portfolio engineering evidence, not as a production deployment or security certification.
+- The profile preserves the release's explicit non-claims around production readiness, malware-detection completeness, arbitrary-file safety, production monitoring/incident response, immutable forensic logging, generic bucket-wide orphan discovery and production performance/scale guarantees.
+
 ## 2026-08-12 — Profile v1.1.0 / Engineering Signal Refinement
 
 ### Release scope
