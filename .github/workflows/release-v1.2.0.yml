@@ -1,0 +1,39 @@
+name: Release Profile v1.2.0
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/release-v1.2.0.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: v1.2.0
+      RELEASE_SHA: 15083318c5f04763cf038f8faf192907b292f789
+    steps:
+      - name: Publish v1.2.0
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/31694942977" \
+            --jq 'select(.head_sha == env.RELEASE_SHA and .head_branch == "main" and .event == "push" and .status == "completed" and .conclusion == "success") | .id' \
+            | grep -qx '31694942977'
+
+          if gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists; aborting instead of moving it."
+            exit 1
+          fi
+
+          gh release create "$TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$RELEASE_SHA" \
+            --title "Profile v1.2.0 — Public Security Evidence" \
+            --notes "Promotes Secure File Gateway v1.0.0 into the maintained Engineering Signal profile as inspectable public evidence for backend systems, API security, real ClamAV integration, controlled delivery, OpenAPI, CI and release engineering. Adds a dedicated case study, stronger Work and GitHub Engineering evidence, and keeps production-readiness claims explicitly bounded. Released from Profile Quality-verified commit 15083318c5f04763cf038f8faf192907b292f789."
