@@ -2,7 +2,7 @@
 
 Status: Active source register
 Owner: Imadeddine Es-sebaiy
-Last verified: 2026-08-12
+Last verified: 2026-08-13
 
 ## Purpose
 
@@ -150,6 +150,38 @@ Supported use:
 - public commits for the profile project;
 - Engineering Signal implementation.
 
+### Secure File Gateway
+
+Repository:
+
+`https://github.com/Imad-cpp/secure-file-gateway`
+
+V1 release:
+
+`https://github.com/Imad-cpp/secure-file-gateway/releases/tag/v1.0.0`
+
+Verified: 2026-08-13
+
+Verified release commit:
+
+`a81e94a9d27a2c2a4511bd45ebced759502b8a64`
+
+Supported use:
+
+- public evidence of Laravel backend/API engineering;
+- Sanctum bearer-token authentication and owner-scoped file metadata/authorization;
+- private quarantine and clean-storage boundaries;
+- extension/server-MIME validation, SHA-256 metadata and owner-scoped duplicate handling;
+- Redis-backed asynchronous scanning with ClamAV integration;
+- fail-closed lifecycle behavior and controlled signed delivery;
+- PostgreSQL, Redis, MinIO-compatible object storage and ClamAV exercised by the permanent real-container CI job;
+- committed OpenAPI contract and route-drift checks;
+- strict Composer lock validation, Pint, Larastan/PHPStan, automated tests and Composer audit;
+- full-history Gitleaks secret-hygiene scanning;
+- exact-commit V1 release audit and public `v1.0.0` publication evidence.
+
+The release documentation explicitly does **not** support claims of production readiness, malware-detection completeness, arbitrary-file safety, production monitoring/incident-response maturity, immutable forensic logging, generic bucket-wide orphan discovery, or production performance/scale guarantees. The profile must preserve those boundaries.
+
 ### N9raw public organization surface
 
 Organization:
@@ -171,6 +203,18 @@ Public profile copy may describe N9raw as a Moroccan student platform / Student 
 Detailed private staging configuration, credentials, private host information, student data or operational weaknesses are excluded from the public profile.
 
 Technology labelled as **approved architecture** must not be silently presented as fully implemented when the project is still in phased implementation.
+
+### Secure File Gateway
+
+Public profile copy may link directly to the repository and `v1.0.0` because both are intentionally public engineering evidence.
+
+Claims should distinguish:
+
+- properties demonstrated by code/tests/CI;
+- release-engineering evidence tied to the exact `v1.0.0` commit; and
+- deliberately unclaimed production guarantees.
+
+The public profile may reference the exact V1 release commit and CI/release-audit model because these are public repository facts. It must not reinterpret the portfolio release as a production deployment or security certification.
 
 ### Nour FPN
 
