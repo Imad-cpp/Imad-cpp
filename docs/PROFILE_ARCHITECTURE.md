@@ -3,6 +3,7 @@
 Status: Approved
 Owner: Imadeddine Es-sebaiy
 Approved: 2026-08-12
+Last reviewed: 2026-08-13
 
 ## Purpose
 
@@ -42,12 +43,13 @@ Imad-cpp/
 │   ├── github-engineering.md
 │   └── case-studies/
 │       ├── n9raw.md
+│       ├── secure-file-gateway.md
 │       ├── nour-fpn.md
 │       ├── n9raw-student-dev-kit.md
 │       └── nexar.md
 ├── assets/
 │   ├── hero/
-│   └── project-*.svg
+│   └── projects/ + icons/ + sections/
 ├── docs/
 │   ├── PROFILE_ARCHITECTURE.md
 │   ├── VISUAL_SYSTEM.md
@@ -68,11 +70,13 @@ Order:
 5. current flagship project;
 6. selected systems;
 7. engineering focus;
-8. GitHub engineering summary;
-9. education/certification snapshot;
-10. technology and contact links.
+8. education/certification snapshot;
+9. technology; and
+10. contact links.
 
 The README must not duplicate the full content of deeper pages.
+
+Selected Systems may include a public repository/release link when it materially improves the evidence hierarchy. Secure File Gateway is the current reference example because its repository and V1 release are intentionally public and inspectable.
 
 ## Deep-page contracts
 
@@ -101,7 +105,7 @@ Credential ledger with issuer, period, practical relevance and verification sour
 
 ### `profile/github-engineering.md`
 
-Shows GitHub maturity through practices rather than vanity metrics: scoped work, commits, review, CI, documentation, security hygiene and project history.
+Shows GitHub maturity through practices rather than vanity metrics: scoped work, commits, review, CI, documentation, security hygiene, release evidence and project history.
 
 ## Case-study contract
 
@@ -115,16 +119,20 @@ Each project case study uses the same general shape so visitors can compare work
 6. constraints;
 7. GitHub/engineering process where relevant;
 8. security/privacy where relevant;
-9. current status; and
+9. current status/evidence boundary; and
 10. public evidence.
 
 Private repositories are never linked as if they were publicly inspectable.
+
+A deliberately public engineering repository may be used as direct evidence. In that case the case study should link to inspectable repository/release artifacts and preserve the project's own evidence limits instead of inflating CI or portfolio evidence into production claims.
 
 ## Visual/content separation
 
 Visual assets may provide identity, project recognition and small engineering motifs.
 
 They must not contain paragraphs of important information. Native Markdown remains canonical.
+
+A new case study does not automatically require a new large project cover. Existing Engineering Signal icons may carry recognition when a text-led case study is clearer and avoids unnecessary root-profile visual density.
 
 ## Responsive contract
 
@@ -145,8 +153,9 @@ Before changing education, certification, role or project-status copy:
 1. identify the source;
 2. record/review the verification date;
 3. distinguish personal facts from institution/program descriptions;
-4. qualify implementation status accurately; and
-5. do not infer missing dates, titles or outcomes.
+4. qualify implementation status accurately;
+5. preserve explicit evidence boundaries from public engineering artifacts; and
+6. do not infer missing dates, titles or outcomes.
 
 ## Repository policy — single-branch steady state
 
@@ -164,7 +173,7 @@ For this repository:
 - stale branches are not part of the intended repository structure;
 - the changelog records visible releases and material profile changes.
 
-This is a deliberate exception for the owner-only profile repository and does not redefine the stricter branch/PR workflows used by production-sensitive projects such as N9raw.
+This is a deliberate exception for the owner-only profile repository and does not redefine the stricter branch/PR workflows used by production-sensitive projects such as N9raw or security-focused public projects such as Secure File Gateway.
 
 ## Quality gates
 
