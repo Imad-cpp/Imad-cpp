@@ -64,6 +64,16 @@ My strongest work sits between product and engineering: defining the problem, st
 
 ## Selected systems
 
+### <img src="./assets/icons/cybersecurity.svg" width="20" alt=""> Secure File Gateway
+
+**Backend security · Laravel API · File handling · Release engineering**
+
+A public security-focused file upload and delivery API built around owner authorization, private quarantine, server-side MIME validation, SHA-256, Redis-backed scanning, ClamAV, signed delivery and exact-commit release evidence.
+
+`v1.0.0` is published from a CI-verified commit after PHP quality, full-history secret scanning, real PostgreSQL/Redis/MinIO/ClamAV integration and a dependent Definition-of-Done release audit all passed.
+
+[Repository](https://github.com/Imad-cpp/secure-file-gateway) · [v1.0.0 release](https://github.com/Imad-cpp/secure-file-gateway/releases/tag/v1.0.0) · [Case study →](./profile/case-studies/secure-file-gateway.md)
+
 ### <img src="./assets/icons/backend-systems.svg" width="20" alt=""> Nour FPN
 
 **WhatsApp-first student assistant · Backend · Integrations · Operations**
@@ -122,13 +132,13 @@ UM6P / Higher Education Without Borders — ACSP · **2025–2026**
 `TypeScript` · `PHP` · `Python` · `C++` · `Java`
 
 <img src="./assets/icons/backend-systems.svg" width="20" alt=""> **Web & Backend**  
-`Next.js` · `React` · `Laravel`
+`Next.js` · `React` · `Laravel` · `REST APIs` · `OpenAPI`
 
 <img src="./assets/icons/backend-systems.svg" width="20" alt=""> **Data & Search**  
 `PostgreSQL` · `Redis` · `Meilisearch`
 
 <img src="./assets/icons/infrastructure.svg" width="20" alt=""> **Infrastructure & Tooling**  
-`Linux` · `Nginx` · `Cloudflare` · `GitHub Actions` · `Git`
+`Linux` · `Nginx` · `Docker` · `Cloudflare` · `GitHub Actions` · `Git`
 
 ## Connect
 
