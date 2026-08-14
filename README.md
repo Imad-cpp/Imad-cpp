@@ -74,6 +74,16 @@ A public security-focused file upload and delivery API built around owner author
 
 [Repository](https://github.com/Imad-cpp/secure-file-gateway) · [v1.0.0 release](https://github.com/Imad-cpp/secure-file-gateway/releases/tag/v1.0.0) · [Case study →](./profile/case-studies/secure-file-gateway.md)
 
+### <img src="./assets/icons/product-engineering.svg" width="20" alt=""> Opportunity Tracker
+
+**Full-stack product engineering · Next.js · Laravel · PostgreSQL · Release engineering**
+
+A public owner-scoped application workspace built around deadlines, next actions, application status and inspectable activity history. The V1 browser journey covers registration through permanent delete, while the API keeps authorization, lifecycle behavior and data semantics server-side.
+
+`v1.0.0` is published from the exact GitHub-verified commit that passed all seven permanent post-merge workflows: application quality, full browser E2E, browser CSRF/CORS security evidence, contract checks, PHP static analysis, secret hygiene and PostgreSQL migration rollback/reapply.
+
+[Repository](https://github.com/Imad-cpp/opportunity-tracker) · [v1.0.0 release](https://github.com/Imad-cpp/opportunity-tracker/releases/tag/v1.0.0) · [Case study →](./profile/case-studies/opportunity-tracker.md)
+
 ### <img src="./assets/icons/backend-systems.svg" width="20" alt=""> Nour FPN
 
 **WhatsApp-first student assistant · Backend · Integrations · Operations**
