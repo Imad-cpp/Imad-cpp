@@ -32,12 +32,13 @@ I turn broad product ideas into structured scopes, user journeys, data models, s
 
 **Evidence**  
 **N9raw** — product direction, information architecture, technical architecture and implementation governance for a Moroccan student platform.  
+**Opportunity Tracker** — a complete public full-stack V1 that turns a personal application-tracking problem into explicit scope, workflows, state semantics, action-first dashboard behavior and release evidence.  
 **Nour FPN** — student-facing services, WhatsApp interaction flows and a Laravel administration surface.
 
 **This work includes**
 
 - defining product scope and non-scope;
-- translating student problems into usable flows;
+- translating user problems into usable flows;
 - designing modular application boundaries;
 - structuring implementation phases;
 - documenting decisions before large technical changes; and
@@ -51,6 +52,8 @@ With **Nour FPN**, I have worked on a Laravel application connected to the Whats
 
 With **Secure File Gateway**, I built a public Laravel API around a deliberately narrow security boundary: authenticated file ingestion, private quarantine, server-side MIME validation, SHA-256 metadata, owner-scoped duplicate handling, Redis-backed malware scanning, controlled signed delivery and deletion. The project reached a public [`v1.0.0`](https://github.com/Imad-cpp/secure-file-gateway/releases/tag/v1.0.0) backed by inspectable CI and release evidence.
 
+With **Opportunity Tracker**, I built an owner-scoped Laravel API and PostgreSQL persistence boundary for opportunity CRUD, status/history workflow, deadline precision, search/filter pagination and dashboard aggregation, then connected it to a Next.js/React product surface. Its public [`v1.0.0`](https://github.com/Imad-cpp/opportunity-tracker/releases/tag/v1.0.0) was published from the exact post-merge commit that passed the complete CI/browser release gate.
+
 **Areas I have worked with**
 
 - Laravel application architecture;
@@ -59,6 +62,7 @@ With **Secure File Gateway**, I built a public Laravel API around a deliberately
 - session/state-machine style conversational flows;
 - validation and object-level access control;
 - private object-storage boundaries;
+- transactional lifecycle/history behavior;
 - academic catalogue mapping;
 - administration workflows; and
 - error handling, failure compensation and operational controls.
@@ -83,6 +87,8 @@ I am comfortable working below the application layer when a project needs it.
 
 Secure File Gateway adds a public example of integration evidence: its CI boots Laravel with PostgreSQL, Redis, MinIO-compatible storage and ClamAV, applies migrations, verifies readiness, starts the scan worker and runs clean/EICAR application paths before the release audit can pass.
 
+Opportunity Tracker adds a different integration example: permanent CI builds the Next.js/Laravel/PostgreSQL Docker stack, applies migrations, smoke-tests the application surfaces, exercises CSRF/CORS behavior and runs a Playwright register-through-delete journey before a release target is accepted.
+
 I prefer infrastructure that is documented and reversible rather than a collection of commands that only one person understands.
 
 ## <img src="../assets/icons/cybersecurity.svg" width="22" alt=""> Security-minded engineering
@@ -105,6 +111,8 @@ My cybersecurity studies directly influence how I approach software projects.
 
 Secure File Gateway makes several of these concerns publicly inspectable: uploads are untrusted by default, client MIME is not trusted, quarantine is private, storage keys are server-generated, scanner errors fail closed, duplicate checks are owner-scoped to avoid a cross-user presence oracle, and signed delivery re-checks lifecycle state.
 
+Opportunity Tracker demonstrates the object-authorization side of the same mindset: private reads/mutations are owner-scoped server-side, foreign UUIDs use enumeration-resistant `404` behavior, browser authentication stays session/CSRF based, notes are plain text, source URLs are data-only and full-history secret scanning is a release gate.
+
 For student products, this matters even more because educational systems can involve minors, identifiers and sensitive academic information.
 
 ## <img src="../assets/icons/github-practice.svg" width="22" alt=""> Technical architecture and documentation
@@ -114,6 +122,8 @@ I treat architecture and documentation as part of engineering work.
 For N9raw, the project workflow includes source-of-truth documentation, decision logs, architecture decision records, implementation phases, quality gates, progress records and change history.
 
 For Secure File Gateway, architecture, security model, API map, engineering decisions, Definition of Done, OpenAPI contract, evidence ledger and release audit live with the implementation and are checked as part of the engineering workflow.
+
+For Opportunity Tracker, the repository records product scope, architecture, security decisions, API/OpenAPI boundaries, roadmap, Definition of Done, changelog and release notes alongside the implementation. Release publication was gated on the exact post-merge commit passing seven permanent workflows rather than on a branch-only green state.
 
 The objective is not documentation for its own sake. The objective is to make important decisions **reviewable, traceable and harder to accidentally undo**.
 
@@ -147,6 +157,7 @@ The kit is designed around tasks that produce a verifiable result, such as:
 
 <img src="../assets/icons/product-engineering.svg" width="20" alt=""> [N9raw →](case-studies/n9raw.md)  
 <img src="../assets/icons/cybersecurity.svg" width="20" alt=""> [Secure File Gateway →](case-studies/secure-file-gateway.md)  
+<img src="../assets/icons/product-engineering.svg" width="20" alt=""> [Opportunity Tracker →](case-studies/opportunity-tracker.md)  
 <img src="../assets/icons/backend-systems.svg" width="20" alt=""> [Nour FPN →](case-studies/nour-fpn.md)  
 <img src="../assets/icons/github-practice.svg" width="20" alt=""> [N9raw Student Dev Kit →](case-studies/n9raw-student-dev-kit.md)  
 <img src="../assets/icons/product-engineering.svg" width="20" alt=""> [Nexar →](case-studies/nexar.md)
